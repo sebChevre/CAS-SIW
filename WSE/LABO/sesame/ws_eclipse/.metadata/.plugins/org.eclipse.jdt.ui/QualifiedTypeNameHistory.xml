@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.omg.CORBA.RepositoryIdHelper"/>
+<fullyQualifiedTypeName name="org.openrdf.model.ValueFactory"/>
+<fullyQualifiedTypeName name="org.openrdf.model.URI"/>
+<fullyQualifiedTypeName name="org.openrdf.model.vocabulary.RDF"/>
+<fullyQualifiedTypeName name="org.openrdf.model.vocabulary.FOAF"/>
+<fullyQualifiedTypeName name="org.openrdf.model.vocabulary.RDFS"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.RepositoryResult"/>
+<fullyQualifiedTypeName name="org.openrdf.model.Statement"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.RepositoryConnection"/>
+<fullyQualifiedTypeName name="info.aduna.iteration.Iterations"/>
+<fullyQualifiedTypeName name="org.openrdf.model.Model"/>
+<fullyQualifiedTypeName name="org.openrdf.model.impl.LinkedHashModel"/>
+<fullyQualifiedTypeName name="org.openrdf.rio.Rio"/>
+<fullyQualifiedTypeName name="org.openrdf.rio.RDFFormat"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.Repository"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.sail.SailRepository"/>
+<fullyQualifiedTypeName name="org.openrdf.sail.memory.MemoryStore"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.manager.RemoteRepositoryManager"/>
+<fullyQualifiedTypeName name="org.openrdf.model.vocabulary.XMLSchema"/>
+</qualifiedTypeNameHistroy>

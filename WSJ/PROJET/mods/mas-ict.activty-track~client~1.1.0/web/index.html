@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		
+		
+		<script type="text/javascript">
+			
+			$(function () {
+				$('#save_usr_btn').click(function () {
+					
+					var name = $("#name").val();
+					var surname = $("#surname").val();
+			       
+			       var sendInfo = {
+			           name: name,
+			           surname: surname
+			       };
+			       
+					$.ajax({
+			           type: "POST",
+			           url: "http://localhost:9090/user/add",
+			           contentType: "application/json; charset=utf-8",
+			           dataType: "json",
+			           success: function (msg) {
+			               if (msg) {
+			                   alert("Somebody" + name + " was added in list !");
+			                   //location.reload(true);
+			               } else {
+			                   alert("Cannot add to list !");
+			               }
+			           },
+			
+			           data: JSON.stringify(sendInfo)
+			       });
+				});
+			})
+		</script>
+	</head>
+	
+	<body>
+		html
+		<div class="jumbotron">
+	  <h1>Index</h1>
+	  
+	  <form action="/postTest" method="post">
+		  <input type="submit">PostTest</input>
+	  </form>
+	  
+	  <form action="/error" method="get">
+		  <input type="submit">ErrorTest</input>
+	  </form>
+	  
+	  	<label>Nom:</label><input id="name" name='name'/>
+	  	<label>Prénom:</label><input id="surname" name='surname'/>
+	  	<button type="button" id="save_usr_btn">Sauver</button>
+	
+
+	  
+	</div>
+
+	</body>
+</html>

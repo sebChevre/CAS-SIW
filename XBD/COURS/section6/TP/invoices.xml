@@ -1,0 +1,7 @@
+<html>{
+for $bd in /collection//bd
+	return 
+		<h3>{$bd/titre/string()}</h3>
+	
+
+}</html>

@@ -1,0 +1,71 @@
+PREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?settlemnet where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland
+}
+
+PREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?name where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland .
+  ?settlemnet dbpprop:municipalityName ?name
+}
+
+
+PREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select  count(distinct ?name) where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland .
+  ?settlemnet dbpprop:municipalityName ?name
+}
+
+PREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?name where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland .
+  ?settlemnet dbpprop:municipalityName ?name
+}
+ORDER BY ?name
+
+
+PREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ns: <http://example.com/namespace>
+
+select distinct ?name where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland .
+  ?settlemnet dbpprop:municipalityName ?name
+  FILTER regex(?name, "^F")
+}
+ORDER BY ?name
+
+PPREFIX db: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ns: <http://example.com/namespace>
+
+select distinct ?name,?altitude where {
+  ?settlemnet rdf:type onto:Settlement .
+  ?settlemnet onto:country db:Switzerland .
+  ?settlemnet dbpprop:municipalityName ?name .
+  OPTIONAL{
+     ?settlemnet dbpprop:elevation ?altitude
+  }  
+
+}
+ORDER BY DESC (?altitude) 
+

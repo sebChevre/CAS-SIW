@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="100%" height="100%"  preserveAspectRatio="none"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:link="http://www.w3.org/1999/xlink"
+	onload="init();">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/ecmascript"> 
+<![CDATA[ 
+
+var global = {};
+
+function init(){
+	global.pointCount = 0;
+	global.posX = document.getElementById('posX');
+	global.posY = document.getElementById('posY');
+	global.svg = document.getElementsByTagName('svg')[0];
+	
+	var ligne = document.createElementNS('http://www.w3.org/2000/svg','line');
+	ligne.setAttribute('x1',220);
+	ligne.setAttribute('y1',550);
+	ligne.setAttribute('x2',1080);
+	ligne.setAttribute('y2',350);
+	ligne.setAttribute('id','ligne_regression');
+	ligne.setAttribute('stroke','red');
+	ligne.setAttributeNS(null, 'visibility', 'hidden');
+	global.svg.appendChild(ligne);
+	
+
+}
+
+function mouseMove(evt) {
+		
+	global.posX.textContent = 'X = ' + (evt.clientX - 220);
+	global.posY.textContent = 'Y =  ' + (600 - evt.clientY);
+		
+}
+
+function addPoint(evt) {
+	buildPoint(evt.clientX,evt.clientY);
+}
+
+
+function buildPoint (x,y) {
+	
+	
+	var point = document.createElementNS('http://www.w3.org/2000/svg','circle');
+	point.setAttribute('cx',x);
+	point.setAttribute('cy',y);
+	point.setAttribute('r',5);
+	point.setAttribute('fill','yellow');
+	point.setAttribute('stroke','none');
+	
+	var id = generateId();
+	point.setAttribute('id',id);
+	point.setAttribute('onclick',"destroyPoint(id)");
+
+
+	global.svg.appendChild(point);
+	global.pointCount++;
+	
+	updateLine();
+}
+
+function destroyPoint(id) {
+
+	var point = document.getElementById(id);
+	
+	global.svg.removeChild(point);	
+	global.pointCount--;
+	
+	updateLine();
+	
+}
+
+function generateId(){
+   return 'point_' + global.pointCount;
+}
+
+function updateLine(){
+	console.log(global.pointCount);
+	
+	if(global.pointCount > 1){
+		var ligne = document.getElementById('ligne_regression');
+		ligne.setAttribute('x1',220);
+		ligne.setAttribute('y1',550);
+		ligne.setAttribute('x2',1080);
+		ligne.setAttribute('y2',350);
+		//ligne.setAttribute('id','ligne_regression');
+		ligne.setAttribute('stroke','red');
+		ligne.setAttributeNS(null, 'visibility', 'visible');
+		
+		//var svg = document.getElementsByTagName('svg')[0];
+		//svg.appendChild(ligne);
+	}
+	else {
+		var ln = document.getElementById('ligne_regression');
+		ln.setAttributeNS(null, 'visibility', 'hidden');
+	}
+}
+
+]]>
+</script>
+
+	<g>		
+		
+		<g>
+			<rect x="200" y="50" width="900" height="600" fill="none" stroke="black"/>
+			<text x="650" y="80" text-anchor="middle">Calcul d'une droite de regression par moindre carré</text>
+		
+		
+			<g onmousemove="mouseMove(evt)" onclick="addPoint(evt)">
+				<rect x="220" y="100" width="860" height="500" fill="cyan" stroke="none"/>
+ 		
+		 		<line x1="220" y1="100" x2="220" y2="600" stroke="black"/>
+		 		<line x1="220" y1="600" x2="1080" y2="600" stroke="black"/>
+
+			</g>
+			
+			<text id="posX" x="300" y="620">X = ????</text>
+			<text id="posY" x="450" y="620">Y = ????</text>
+			<text id="fX" x="600" y="620">F(x) = ????</text>
+			
+		
+		</g>
+		
+ 				
+	</g>
+
+</svg>

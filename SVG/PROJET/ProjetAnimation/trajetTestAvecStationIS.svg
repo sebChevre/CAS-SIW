@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="trajetTestAvecStationIS.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="190.30097"
+     inkscape:cy="930.39889"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1067"
+     inkscape:window-height="835"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3027"
+       width="32.857143"
+       height="40"
+       x="135.71428"
+       y="243.79076" />
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3029"
+       width="31.428572"
+       height="31.428572"
+       x="65.714287"
+       y="96.647896" />
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3033"
+       width="34.285713"
+       height="34.285713"
+       x="615.71429"
+       y="282.36218" />
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3031"
+       width="35.714287"
+       height="35.714287"
+       x="112.85714"
+       y="659.50507" />
+    <image
+       y="253.40259"
+       x="146.03812"
+       id="gare2"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAXhJREFU
+KJGN0jFLW2EUxvHnBsPLzXsTuRQpRYKFWKcMsYJCXHIXB0kxUGqpuLkIHfwyQhAUutohIUgkW6Fk
+yZQPkKUUwUEwRojE5ib/DiFoxNo8cMYfD5xzxKPU63W283nm4nF81+WVtXwIAqrVKk+yIIB+v8/X
+vT3mXZdDx+G3xLXEpcQ3iaVYjO18nm63OwkP9vfJWcu1BM/MncSnWIyPm5sMh8MRbDQavLWWm3+g
+8dxLrHge5XJ5BHcLBYqO8yIaz5lEbnl5BOd9n19TICR6Em40SqvVSkWubm/1RtPFSJqNRlUqlXy9
+TiS4nLIxlHBnZmg2m+8i2bU11aZs/CEpnUopk8n8Ua1WY8la7v7TNpBYt5aT4+OHO37Z2uKz63L/
+AjowhmB1lTAMH2Cv12OnUOC953Eu0X8EfkrkPI+NbJZ2uz35OeN8Pz1lPZ0mYQy+MSSMYWVxkaNi
+kcFgMPGrDrDwdAmdTidSqVTiQRB0k8lk+MyeLv4C+IJ13tj5MdsAAAAASUVORK5CYII=
+"
+       height="14"
+       width="14"
+       inkscape:label="#image3075" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 77.142857,112.36218 262.857143,0 17.14286,71.42857 -205.71429,77.14286 -54.285713,162.85714 97.142853,77.14286 197.14286,-125.71428 74.28572,65.71428 L 420,552.36218 l -168.57143,51.42857 -120,68.57143 0,134.28572 114.28572,48.57143 191.42857,-97.14286 171.42857,-234.28572 22.85714,-228.57142"
+       id="path3025"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="gare1"
+       sodipodi:cx="-97.984795"
+       sodipodi:cy="-7.287838"
+       sodipodi:rx="6.0609155"
+       sodipodi:ry="6.0609155"
+       d="m -91.923879,-7.287838 a 6.0609155,6.0609155 0 1 1 -12.121831,0 6.0609155,6.0609155 0 1 1 12.121831,0 z"
+       transform="matrix(1,0,0,-1,176.7767,106.13755)"
+       inkscape:label="#path3054" />
+  </g>
+</svg>

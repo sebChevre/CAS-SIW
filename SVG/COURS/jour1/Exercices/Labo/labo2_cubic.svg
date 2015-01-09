@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="100%" height="100%"  preserveAspectRatio="none"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:link="http://www.w3.org/1999/xlink"
+	onload="init()">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/ecmascript"> 
+<![CDATA[ 
+var global = {};
+
+function init(){
+	global.bezier = document.getElementById('bezier');
+	global.poignee_1 = document.getElementById('poignee_1');
+	global.poignee_2 = document.getElementById('poignee_2');
+	global.posX = document.getElementById('posX');
+	global.posY = document.getElementById('posY');
+	global.isPoignee1Clic;
+	global.isPoignee2Clic;
+	
+}
+
+function onPoigneeClic(poignee_id) {
+	if(poignee_id == 1){
+		global.isPoignee1Clic = true;
+		global.isPoignee2Clic = false;
+	}else if(poignee_id == 2){
+		global.isPoignee1Clic = false;
+		global.isPoignee2Clic = true
+	}
+}
+
+function mouseUp() {
+	global.isPoignee1Clic = false;
+	global.isPoignee2Clic = false;
+}
+
+function mouseMove(evt) {
+	
+	global.posX.textContent = 'X: ' + evt.clientX;
+	global.posY.textContent = 'Y: ' + evt.clientY;
+	
+	if(global.isPoignee1Clic){
+	
+		global.poignee_1.setAttribute('cx',evt.clientX);
+		global.poignee_1.setAttribute('cy',evt.clientY);
+		refreshdDBezierAttribute(evt.clientX,evt.clientY,global.poignee_2.getAttribute('cx'),global.poignee_2.getAttribute('cy'));	
+				
+	}else if(global.isPoignee2Clic){
+	
+		global.poignee_2.setAttribute('cx',evt.clientX);
+		global.poignee_2.setAttribute('cy',evt.clientY);
+		refreshdDBezierAttribute(global.poignee_1.getAttribute('cx'),global.poignee_1.getAttribute('cy'),evt.clientX,evt.clientY);
+		
+	}
+}
+
+function refreshdDBezierAttribute(p1x,p1y,p2x,p2y){
+	
+	var dParamStr = 'M 150 400 C ' + p1x + ' ' + p1y + ' ' + p2x + ' ' + p2y + ' 950 400';
+	global.bezier.setAttribute('d',dParamStr);
+		
+}
+
+]]>
+</script>
+
+	<g>
+		<text x="550" y="80" font-size="24" text-anchor="middle">Courbe de Bézier - cubique</text>
+		
+		<g onmousemove="mouseMove(evt)" onmouseup="mouseUp()">		
+			<rect x="100" y="100" width="900" height="600" fill="white" stroke="black"/>
+			<circle id="poignee_1" onmousedown="onPoigneeClic(1)" cx="300" cy="180" r="5" fill="red" stroke="none"/>
+			<circle id="poignee_2" onmousedown="onPoigneeClic(2)" cx="800" cy="590" r="5" fill="green" stroke="none"/>
+			<path id="bezier" d="M 150 400 C 300 180 800 590 950 400" stroke-linecap="round" stroke-width="4" stroke="black" fill="none"/>
+		</g>
+	
+		<text id="posX" x="100" y="80">x:</text>
+		<text id="posY" x="150" y="80">y:</text>
+	</g>
+</svg>

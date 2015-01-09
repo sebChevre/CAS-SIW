@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+xml:base="http://www.websemantique.ch/people/" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+xmlns:rel="http://purl.org/vocab/relationship/" 
+xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns="http://www.websemantique.ch/people/">
+
+
+
+<foaf:Person rdf:about="sebchevre">
+<foaf:title>M,</foaf:title>
+<foaf:name>Sébastien Chèvre</foaf:name>
+<foaf:givenname>Sébastien</foaf:givenname>
+<foaf:family_name>Chèvre</foaf:family_name>
+<foaf:img rdf:resource="http://www.websemantique.ch/people/images/sebchevre.jpg" />
+<foaf:workplaceHomepage rdf:resource="http://www.globaz.ch"/>
+<foaf:gender>male</foaf:gender>
+<foaf:mbox_sha1sum>82992205da558d26ce60b903268e4ffe350567de</foaf:mbox_sha1sum>
+<rel:worksWith rdf:resource="http://www.websemantique.ch/people/sebastienchevre"/>
+	  <foaf:based_near>
+		<geo:Point>
+		  <geo:lat>46.3</geo:lat>
+	      <geo:long>7.5333333</geo:long>
+		</geo:Point>
+	  </foaf:based_near> 
+	  <foaf:interest dc:title="Computers" rdf:resource="http://dbpedia.org/resource/Computers" />
+	  <foaf:interest dc:title="Computer programming" rdf:resource="http://dbpedia.org/resource/Computer_programming" />
+	  <foaf:interest dc:title="Semantic Web" rdf:resource="http://dbpedia.org/resource/Semantic_web" />
+	  <foaf:interest dc:title="XML" rdf:resource="http://dbpedia.org/page/XML" />
+	  <foaf:interest dc:title="Travel" rdf:resource="http://dbpedia.org/page/Travel" />
+	  <foaf:interest dc:title="Salsa" rdf:resource="http://dbpedia.org/page/Salsa_%28dance%29" />
+	  <foaf:currentProject rdf:resource="http://www.memodules.ch" />
+	  <foaf:currentProject rdf:resource="www.memoria-mea.ch" />
+</foaf:Person>
+
+
+</rdf:RDF>

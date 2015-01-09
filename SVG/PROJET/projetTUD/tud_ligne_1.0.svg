@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1440"
+   height="777"
+   id="svg3119"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="tud_ligne_1.0.svg">
+  <defs
+     id="defs3121" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="994.82741"
+     inkscape:cy="290.86837"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="803"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3124">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="0"
+       x="0"
+       id="image3170"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/carte_delemont.jpg"
+       height="777"
+       width="1440" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 866.91294,658.27532 878.93374,668.88192 975.10024,643.42608 975.80734,634.94079 900.14694,628.57683 878.93374,555.03773 813.87993,572.00829 803.98043,581.20068 790.5454,577.66514 773.57484,564.93722 753.06874,561.40169 736.80529,563.52301 715.59208,579.07936 692.25756,595.34281 676.70121,605.94942 629.32506,637.06211 613.0616,644.84029 563.56412,611.60627 580.53469,584.02911 590.43418,560.69458 589.72708,540.18849 577.70626,522.51082 567.09966,506.95447 555.78595,499.17629 537.40117,481.49862 526.79457,458.87121 514.77376,438.36511 504.16716,428.46561 489.31791,410.78794 491.43923,386.74631 475.17578,340.07727 469.51892,323.1067 442.64887,330.88488 446.1844,350.68387 425.6783,354.92651 409.41485,357.75494 383.959,363.41179 379.00925,337.24884 376.88793,317.44985 350.72498,322.3996 335.87574,334.42041 320.31939,348.56255 313.95543,356.34072 311.127,373.31128 308.29858,389.57474 307.59147,410.78794 316.07675,432.00115 325.26914,436.24379 351.43209,450.38592 374.76661,463.11385 403.05089,473.72045 429.21384,484.32705 444.06308,489.2768 469.51892,482.20573 494.26766,474.42755 514.77376,475.13466 539.52249,482.91284 562.85702,504.83315 582.65601,529.58188 593.26261,545.84534 586.89865,569.17986 574.17073,592.51439 562.85702,610.89916 583.36311,624.33419 603.86921,638.47633 613.76871,644.84029 636.39612,632.81947 659.73065,618.67734 691.55045,596.75703 715.59208,579.78646 733.26975,569.17986 748.8261,586.85753 760.84692,608.77784 771.45352,626.45551 788.42408,642.71897 801.85911,658.98242 815.29414,677.3672 823.07231,685.85248 842.8713,681.60984 864.79164,673.83167 z"
+       id="path3197"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#b90000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 869.28572,657 875.71429,654.85714 882.14286,667 975.71429,643.42857 979.28572,637 968.57143,633.42857 941.42857,632 900.71429,628.42857 893.57143,611.28571 886.42857,578.42857"
+       id="segment1"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path4814" />
+    <path
+       style="fill:none;stroke:#c90000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 886.07143,575.92857 878.92857,555.92857 861.42857,559.85714 839.64286,565.57143"
+       id="segment2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5324" />
+    <path
+       style="fill:none;stroke:#c80000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 838.21429,565.57143 820.35714,569.14286 808.57143,571.64286 803.92857,580.21429 791.07143,577.71429 778.21429,569.14286 766.07143,563.78571 752.14286,561.28571 740,564.14286 728.21429,569.85714 716.07143,578.78571"
+       id="segment3"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5326" />
+    <path
+       style="fill:none;stroke:#ce0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 715,580.21429 701.78572,589.14286 688.21429,598.42857 675.35714,608.07143 661.42857,617.71429 645.35714,627.35714 622.14286,640.21429"
+       id="segment4"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5328" />
+    <path
+       style="fill:none;stroke:#d60000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 620,641.64286 613.57143,644.14286 599.28572,634.5 584.28572,625.57143 567.85714,614.14286"
+       id="segment5"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5330" />
+    <path
+       style="fill:none;stroke:#d70000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 565.71429,613.42857 562.5,610.57143 570,599.5 580.35714,583.42857 586.42857,569.14286 592.14286,552.71429 589.64286,540.57143 580,524.85714 568.21429,510.57143 552.85714,496.28571"
+       id="segment6"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5332" />
+    <path
+       style="fill:none;stroke:#d00000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 551.07143,494.5 538.21429,482.71429 533.21429,472 523.92857,454.14286 513.57143,438.42857 502.5,426.64286 495,417 488.92857,410.21429 490.71429,393.07143 491.07143,385.21429 485.35714,369.5 479.28572,352.35714 475,337.71429 469.28572,322.71428"
+       id="segment7"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5334" />
+    <path
+       style="fill:none;stroke:#eb0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 467.5,324.14286 443.21429,330.92857 446.42857,350.57143 417.5,356.28571 384.28571,363.78571"
+       id="segment8"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5336" />
+    <path
+       style="fill:none;stroke:#a00000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 383.57143,361.28571 380.35714,344.85714 377.85714,323.07143 377.14286,316.64286 360.35714,320.21428 350.35714,322 337.5,331.64286 326.07143,342.71429 313.57143,355.57143 311.07143,370.92857 309.64286,386.28571 308.57143,405.92857"
+       id="segment9"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5338" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 307.85714,386.64286 307.85714,394.14286 314.64286,406.64286 318.92857,414.14286 331.07143,420.21429 331.07143,420.21429 344.64286,427.35714 360.35714,436.28571 376.42857,443.42857 390.35714,448.07143"
+       id="segment10"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5340" />
+    <path
+       style="fill:none;stroke:#00c100;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 392.5,469.85714 411.78571,477.35714 435,486.64286 445,489.14286 470.35714,482.71429 492.14286,476.28571 505,475.57143 521.42857,477.35714 536.07143,481.64286 551.42857,494.14286"
+       id="segment11"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5342"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:none;stroke:#00e500;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 551.78572,494.85714 563.57143,506.28571 573.57143,516.64286 585.71429,532.71429 592.14286,543.42857 592.14286,555.92857 583.21429,578.78571 576.07143,591.28571 566.78572,604.85714 562.14286,610.57143 566.07143,614.14286"
+       id="segment12"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5344" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 567.14286,613.42857 612.85714,644.14286 622.14286,640.57143"
+       id="segment13"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5346" />
+    <path
+       style="fill:none;stroke:#00f600;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 621.78572,640.57143 651.42857,623.42857 679.64286,605.21429 716.07143,579.5"
+       id="segment14"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5348" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 717.14286,577.71429 732.85714,568.42857 740,575.21429 748.21429,586.28571 756.42857,600.57143 765.35714,615.57143 773.92857,628.42857 785.71429,638.78571 797.14286,653.78571 807.14286,668.42857 820.35714,685.57143 837.5,683.42857 855.71429,678.07143 865,674.14286 862.5,664.85714 861.42857,659.14286 867.14286,657.35714"
+       id="segment15"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path5350" />
+    <image
+       y="634.79059"
+       x="861.38855"
+       id="gare"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3058" />
+    <image
+       y="559.28168"
+       x="889.67285"
+       id="avgare"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3142" />
+    <image
+       y="541.35144"
+       x="831.58905"
+       id="preguillaume"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3274" />
+    <image
+       y="553.72583"
+       x="701.27936"
+       id="stand"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3433" />
+    <image
+       y="645.14465"
+       x="613.90118"
+       id="blancherie"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3495" />
+    <image
+       y="607.26392"
+       x="539.1499"
+       id="grospre"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3557" />
+    <image
+       y="528.97705"
+       x="595.71844"
+       id="image3619"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:transform-center-x="7.0710678"
+       inkscape:transform-center-y="-18.687822" />
+    <image
+       y="301.69278"
+       x="463.38846"
+       id="hopital"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3681" />
+    <image
+       y="366.8476"
+       x="369.44427"
+       id="merretop"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3743" />
+    <image
+       y="403.9707"
+       x="283.83383"
+       id="palastre"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3805" />
+    <image
+       y="444.62936"
+       x="388.63718"
+       id="poujet"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3867" />
+    <image
+       y="492.3591"
+       x="527.53314"
+       id="promenade"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3929" />
+    <image
+       y="470.71429"
+       x="1072"
+       id="avenir"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3073" />
+    <image
+       y="399.99997"
+       x="1107.7142"
+       id="primeveres"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3138" />
+    <image
+       y="351.42859"
+       x="1180.5714"
+       id="gaz"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3203" />
+    <image
+       y="237.85716"
+       x="1093.4286"
+       id="morepont"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3268" />
+    <image
+       y="162.14287"
+       x="1016.9999"
+       id="moissons"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3333" />
+    <image
+       y="92.142868"
+       x="1087.7144"
+       id="bordgeais"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3398" />
+    <image
+       y="6.4285779"
+       x="1084.8572"
+       id="crasfourches"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3463" />
+    <image
+       y="20.714291"
+       x="982.00006"
+       id="sousmexique"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3528" />
+    <image
+       y="55.714283"
+       x="921.28571"
+       id="andains"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3593" />
+    <image
+       y="107.85714"
+       x="890.57141"
+       id="giravorbourg"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3658" />
+    <image
+       y="201.42857"
+       x="872.71429"
+       id="martins"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3723" />
+    <image
+       y="318.57144"
+       x="735.57135"
+       id="montcroix"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3788" />
+    <image
+       y="418.57144"
+       x="743.42853"
+       id="stgeorges"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3853" />
+    <image
+       y="405"
+       x="826.28577"
+       id="ticle"
+       xlink:href="file:///Users/seb/Dropbox/MAS-ICT/CAS-SIW/SVG/projetTUD/icon_bus.png"
+       height="20"
+       width="20"
+       inkscape:label="#image3918" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 885,574.85714 871.42857,522.71429 945.71429,507.71429 999.28571,498.42857 1043.5714,487 1075,479.14286"
+       id="segment1_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3027" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1078.5714,478.42857 1113.5714,467.71429 1095,421.28571 1117.8571,419.14286"
+       id="segment2_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3029" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1123.5714,417.71429 1165,408.42857 1197.8571,403.42857 1181.4286,367.71429"
+       id="segment3_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3031" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1181.4286,364.14286 1157.8571,321.28571 1142.8571,288.42857 1135,267.71429 1133.5714,253.42857 1116.4286,252.71429 1104.2857,259.14286"
+       id="segment4_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3033" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1102.8571,260.57143 1077.1429,274.14286 1069.2857,271.28571 1061.4286,254.85714 1057.1429,241.28571 1050,231.28571 1035,228.42857 1019.2857,226.28571 1010.7143,211.28571 1006.4286,192 1008.5714,184.85714 1030,182.71429"
+       id="segment5_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1032.8571,183.42857 1063.5714,176.28571 1089.2857,169.85714 1102.1429,167 1105.7143,142.71429 1110.7143,103.42857"
+       id="segment6_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3037" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1113.5714,98.428571 1117.8571,57.714286 1114.2857,39.857143 1092.8571,26.285714"
+       id="segment7_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3039" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1091.4286,26.285714 1067.8571,24.142857 1040.7143,27.714286 1021.4286,30.571429 1004.2857,38.428571 988.57143,42"
+       id="segment8_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3041" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 984.28571,43.428571 974.28571,64.857143 952.85714,71.285714 929.28571,76.285714"
+       id="segment9_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3043" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 925,77.714286 910,79.857143 911.42857,98.428571 914.28571,113.42857 914.28571,122"
+       id="segment10_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3045" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 913.57143,124.85714 905.71429,173.42857 896.42857,212.71429 879.28571,215.57143"
+       id="segment11_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3047" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 876.42857,217.71429 835,236.28571 810.71429,248.42857 811.42857,269.14286 812.14286,287.71429 800,307 787.85714,322 765.71429,332 750.71429,341.28571"
+       id="segment12_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3049" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 748.57143,343.42857 728.57143,360.57143 713.57143,369.85714 692.14286,376.28571 682.14286,381.28571 684.28571,397 697.85714,409.85714 710,427.71429 720,443.42857 722.85714,456.28571 723.57143,465.57143 730,465.57143 739.28571,454.14286 760,440.57143"
+       id="segment13_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3051" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 761.42857,441.28571 782.14286,432 804.28571,423.42857 817.85714,418.42857 832.14286,424.85714"
+       id="segment14_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3053" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 834.28571,426.28571 844.28571,441.28571 855,462 861.42857,480.57143 867.85714,507 877.85714,545.57143 886.42857,575.57143"
+       id="segment15_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3055" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 886.42857,578.42857 892.14286,602 898.57143,624.14286 900.71429,629.85714 932.85714,632 957.14286,634.14286 972.85714,636.28571 973.57143,642 947.14286,651.28571 922.14286,656.28571 903.57143,662.71429 883.57143,667.71429 875.71429,657 867.85714,657"
+       id="segment16_2"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3057" />
+  </g>
+</svg>

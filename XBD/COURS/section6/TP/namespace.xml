@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<o:shiporder xmlns:o="http://www.eif.ch/order">
+	<o:orderperson>John Smith</o:orderperson>
+	<o:shipto>
+		<o:name>Ola Nordmann</o:name>
+		<o:address>Langgt 23</o:address>
+		<o:city>4000 Stavanger</o:city>
+		<o:country>Norway</o:country>
+	</o:shipto>
+	<o:item>
+		<o:title>Empire Burlesque</o:title>
+		<o:note>Special Edition</o:note>
+		<o:quantity>1</o:quantity>
+		<o:price>10.90</o:price>
+	</o:item>
+	<o:item>
+		<o:title>Hide your heart</o:title>
+		<o:quantity>1</o:quantity>
+		<o:price>9.90</o:price>
+	</o:item>
+</o:shiporder>

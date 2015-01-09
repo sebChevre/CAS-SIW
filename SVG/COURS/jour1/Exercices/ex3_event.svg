@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" 
+	xmlns:link="http://www.w3.org/1999/xlink">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/ecmascript"> 
+<![CDATA[
+
+$(function () {
+	console.log("jquery ok");
+});
+
+function click(evt,objet){
+	alert('click![ ' + document.getElementById('cercle') + '] ' + evt.target);
+	console.log(evt);
+	console.log(evt.target.attributes[0]);
+}
+ 
+]]>
+</script>
+		<circle id="cercke" onclick="click(evt,'cercle')" cx="250" cy="250" r="45" fill="green" stroke="black" />
+		<polygon id="polygine" onclick="click(evt,'triangle')"  points="300 300, 400 400, 200 400" fill="red" />
+		<rect id="rectangle" onclick="click(evt,'rectangle')"  x="200" y="410" width="200" height="20" stroke="blue" fill="blue"/>
+
+
+</svg>

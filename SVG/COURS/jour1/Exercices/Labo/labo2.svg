@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="100%" height="100%"  preserveAspectRatio="none"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:link="http://www.w3.org/1999/xlink"
+	onload="init()">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/ecmascript"> 
+<![CDATA[ 
+
+//variables globales encapsulé dans objet json
+var global = {};
+
+
+//Initialisation des variables une fois le dom chargee
+function init () {
+	global.isPoigneeClic = false;
+	global.posX = document.getElementById('posX');
+	global.posY = document.getElementById('posY');
+	global.poignee = document.getElementById('poignee');
+	global.bezier = document.getElementById('bezier');
+}
+
+function onPoigneeClic () {
+	global.isPoigneeClic = true;
+}
+
+function mouseUp () {
+	global.isPoigneeClic = false;
+}
+
+function mouseMove(evt) {
+	
+	global.posX.textContent = 'X: ' + evt.clientX;
+	global.posY.textContent = 'Y: ' + evt.clientY;
+	
+	if(global.isPoigneeClic){
+		
+		global.poignee.setAttribute('cx',evt.clientX);
+		global.poignee.setAttribute('cy',evt.clientY);
+		
+		var str = 'M 150 400 Q ' + evt.clientX + ' ' + evt.clientY + ' 950 400';
+		
+		global.bezier.setAttribute('d',str);
+		
+	}
+}
+
+]]>
+</script>
+
+<g>
+	<text x="550" y="80" font-size="24" text-anchor="middle">Courbe de Bézier - quadratique</text>
+	
+	<g onmousemove="mouseMove(evt)" onmouseup="mouseUp()">		
+		
+		<rect x="100" y="100" width="900" height="600" fill="white" stroke="black"/>
+		<circle id="poignee" onmousedown="onPoigneeClic()" cx="300" cy="280" r="5" fill="red" stroke="none"/>
+		<path id="bezier" d="M 150 400 Q 300 280 950 400" stroke-linecap="round" stroke-width="4" stroke="black" fill="none"/>
+		
+	</g>
+	
+	<text id="posX" x="100" y="80">x:</text>
+	<text id="posY" x="150" y="80">y:</text>
+	</g>
+</svg>

@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_0b4c95b1_7616_427d_bfe1_85431374d983 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_0b4c95b1_7616_427d_bfe1_85431374d983">
+        <rdfs:label xml:lang="fr">isMotherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_25aeecda_c10b_4051_8609_e9c85be79176"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_141ccb83_ae56_4a83_bcef_8544274411be -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_141ccb83_ae56_4a83_bcef_8544274411be">
+        <rdfs:label xml:lang="fr">isDaughterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_de17cb81_128f_4a6a_b4af_8d6ce59c9adc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_25aeecda_c10b_4051_8609_e9c85be79176 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_25aeecda_c10b_4051_8609_e9c85be79176">
+        <rdfs:label xml:lang="fr">isParentOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_b0c73f7c_5054_473d_8cec_048642457007"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_2881ffcd_0bb5_4a39_9f37_9f491c00640f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_2881ffcd_0bb5_4a39_9f37_9f491c00640f">
+        <rdfs:label xml:lang="fr">isFatherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_25aeecda_c10b_4051_8609_e9c85be79176"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_2942f0fe_372d_4f29_b356_df71aa43a9d7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_2942f0fe_372d_4f29_b356_df71aa43a9d7">
+        <rdfs:label xml:lang="fr">hasUncle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_341f8795_052d_43a5_8af8_ff3f03081bd9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_341f8795_052d_43a5_8af8_ff3f03081bd9">
+        <rdfs:label xml:lang="fr">isSpouseOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_3bd43207_18a0_43dd_b8e0_973abd4a4ac0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_3bd43207_18a0_43dd_b8e0_973abd4a4ac0">
+        <rdfs:label xml:lang="fr">isBrotherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_88945849_cbf6_414f_b403_9c4c225e18e1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_40e29b8b_9e54_41be_a7b5_89c9af07cd75 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_40e29b8b_9e54_41be_a7b5_89c9af07cd75">
+        <rdfs:label xml:lang="fr">isSonOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_de17cb81_128f_4a6a_b4af_8d6ce59c9adc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_42e89ac0_5a24_467a_939f_9f78c8b1af1f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_42e89ac0_5a24_467a_939f_9f78c8b1af1f">
+        <rdfs:label xml:lang="fr">hasDaughter</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_9a921d99_cd1c_43e8_b6b6_c93cb92d29f7"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_565f81e0_757b_4bd2_86fd_8e05dae6d408 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_565f81e0_757b_4bd2_86fd_8e05dae6d408">
+        <rdfs:label xml:lang="fr">hasBrother</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_e6f109ae_c7a7_4776_8f07_85a810dc364d"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_5a4548a5_9541_4b52_b683_d2fd31bb62ad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_5a4548a5_9541_4b52_b683_d2fd31bb62ad">
+        <rdfs:label xml:lang="fr">hasAunt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_653b83d6_d068_43f7_be4d_744e13f87e68 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_653b83d6_d068_43f7_be4d_744e13f87e68">
+        <rdfs:label xml:lang="fr">hasSister</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_e6f109ae_c7a7_4776_8f07_85a810dc364d"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_688ea831_d88f_4d1f_a303_b8da9821abe1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_688ea831_d88f_4d1f_a303_b8da9821abe1">
+        <rdfs:label xml:lang="fr">hasFather</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_cce17ac8_92a3_4f97_811b_c544d4eec9f8"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_6f99ff5b_fd6a_4270_9143_67c6d21c58ab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_6f99ff5b_fd6a_4270_9143_67c6d21c58ab">
+        <rdfs:label xml:lang="fr">hasSpouse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_7b766256_ce12_45f8_976b_8f066bed1199 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_7b766256_ce12_45f8_976b_8f066bed1199">
+        <rdfs:label xml:lang="fr">hasAncestor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_8413f327_e4a3_4dc0_9bdf_b2bf0f7af59a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_8413f327_e4a3_4dc0_9bdf_b2bf0f7af59a">
+        <rdfs:label xml:lang="fr">isSisterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_88945849_cbf6_414f_b403_9c4c225e18e1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_88945849_cbf6_414f_b403_9c4c225e18e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_88945849_cbf6_414f_b403_9c4c225e18e1">
+        <rdfs:label xml:lang="fr">isSiblingOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_9a921d99_cd1c_43e8_b6b6_c93cb92d29f7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_9a921d99_cd1c_43e8_b6b6_c93cb92d29f7">
+        <rdfs:label xml:lang="fr">hasChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_ae6c4269_d374_47d4_b51d_1f963c643fdb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_ae6c4269_d374_47d4_b51d_1f963c643fdb">
+        <rdfs:label xml:lang="fr">hasFirstCousin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_b0c73f7c_5054_473d_8cec_048642457007 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_b0c73f7c_5054_473d_8cec_048642457007">
+        <rdfs:label xml:lang="fr">isAncestorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_bdc0ecd8_ce94_4171_8528_1c88ae00e89c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_bdc0ecd8_ce94_4171_8528_1c88ae00e89c">
+        <rdfs:label xml:lang="fr">isAuntOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_bfab669a_f4a9_42c4_9d8a_33aa67563196 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_bfab669a_f4a9_42c4_9d8a_33aa67563196">
+        <rdfs:label xml:lang="fr">isFirstCousinOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_c3ed0536_5ed4_475e_ae37_e8230dbce681 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_c3ed0536_5ed4_475e_ae37_e8230dbce681">
+        <rdfs:label xml:lang="fr">hasSon</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_9a921d99_cd1c_43e8_b6b6_c93cb92d29f7"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_c4ac1461_8f87_4e45_9437_f200770a4a7d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_c4ac1461_8f87_4e45_9437_f200770a4a7d">
+        <rdfs:label xml:lang="fr">hasMother</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_cce17ac8_92a3_4f97_811b_c544d4eec9f8"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_cce17ac8_92a3_4f97_811b_c544d4eec9f8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_cce17ac8_92a3_4f97_811b_c544d4eec9f8">
+        <rdfs:label xml:lang="fr">hasParent</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_7b766256_ce12_45f8_976b_8f066bed1199"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_de17cb81_128f_4a6a_b4af_8d6ce59c9adc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_de17cb81_128f_4a6a_b4af_8d6ce59c9adc">
+        <rdfs:label xml:lang="fr">isChildOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_e6f109ae_c7a7_4776_8f07_85a810dc364d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_e6f109ae_c7a7_4776_8f07_85a810dc364d">
+        <rdfs:label xml:lang="fr">hasSibling</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_ef29bd7b_db8e_4345_aea2_44f71e76394b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLObjectProperty_ef29bd7b_db8e_4345_aea2_44f71e76394b">
+        <rdfs:label xml:lang="fr">isUncleOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_45069b40_8bb8_4dc2_bc2f_45feaa55c106 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_45069b40_8bb8_4dc2_bc2f_45feaa55c106">
+        <rdfs:label xml:lang="fr">hasGivenName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_502fcc8a_d3b8_4b06_bbd8_8b717996125a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_502fcc8a_d3b8_4b06_bbd8_8b717996125a">
+        <rdfs:label xml:lang="fr">hasMiddleNameOrInitial</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_96feaceb_932e_474c_bda6_ced727879d3f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_96feaceb_932e_474c_bda6_ced727879d3f">
+        <rdfs:label xml:lang="fr">hasSurname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_c935013c_3d16_4b71_a143_87518cb23926 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_c935013c_3d16_4b71_a143_87518cb23926">
+        <rdfs:label xml:lang="fr">hasPreMarriageSurname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_e843ac24_fe2d_44cc_a60d_817638aa3611 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_e843ac24_fe2d_44cc_a60d_817638aa3611">
+        <rdfs:label xml:lang="fr">hasBirthDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_f28c6dbb_add1_4590_838b_d016c99af3e0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLDataProperty_f28c6dbb_add1_4590_838b_d016c99af3e0">
+        <rdfs:label xml:lang="fr">hasDeathDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Ancestor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Ancestor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Daughter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Daughter">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_4f164b30_84ec_4906_bfec_9fc89730d541"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Child"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Father -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Father">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_52f8d183_9488_4c93_a272_4a3542320149"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_4f164b30_84ec_4906_bfec_9fc89730d541 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_4f164b30_84ec_4906_bfec_9fc89730d541">
+        <rdfs:label xml:lang="fr">Daughter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_4f1ed147_d665_4209_a14a_a4170a94a844 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_4f1ed147_d665_4209_a14a_a4170a94a844">
+        <rdfs:label xml:lang="fr">Sister</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_c0325a1c_6e35_4dce_9632_07b0caa78b66"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_5fdca52a_2aed_4876_8e4a_d52778b0bb4a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_52f8d183_9488_4c93_a272_4a3542320149 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_52f8d183_9488_4c93_a272_4a3542320149">
+        <rdfs:label xml:lang="fr">Father</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Parent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_54124be3_6bff_4730_8a3e_db5a5e787a3d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_54124be3_6bff_4730_8a3e_db5a5e787a3d">
+        <rdfs:label xml:lang="fr">Spouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_5fdca52a_2aed_4876_8e4a_d52778b0bb4a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_5fdca52a_2aed_4876_8e4a_d52778b0bb4a">
+        <rdfs:label xml:lang="fr">Sibling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_69d0d117_e00f_4d73_aaba_0d05066150e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_69d0d117_e00f_4d73_aaba_0d05066150e5">
+        <rdfs:label xml:lang="fr">Wife</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_97a80e46_7b4b_47b4_863f_7c54349c55ee"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_54124be3_6bff_4730_8a3e_db5a5e787a3d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_6d1b2ab6_ae2c_4f81_9e33_fc44ebda3165 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_6d1b2ab6_ae2c_4f81_9e33_fc44ebda3165">
+        <rdfs:label xml:lang="fr">Aunt</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d5de9ec1_3da1_4893_82cc_d0e50acc6b97"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_7512ba3d_d176_4a94_b392_3b94de1f493d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_7512ba3d_d176_4a94_b392_3b94de1f493d">
+        <rdfs:label xml:lang="fr">Brother</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d2e2dc04_0b5c_40da_9a27_90451d0796cc"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_75eb8a19_2047_47cc_98d0_d56130198243 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_75eb8a19_2047_47cc_98d0_d56130198243">
+        <rdfs:label xml:lang="fr">Son</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Son"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_97a80e46_7b4b_47b4_863f_7c54349c55ee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_97a80e46_7b4b_47b4_863f_7c54349c55ee">
+        <rdfs:label xml:lang="fr">Wife</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_9d12ebc2_f114_4b12_97ea_0d297edac4eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_9d12ebc2_f114_4b12_97ea_0d297edac4eb">
+        <rdfs:label xml:lang="fr">Husband</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d6ba0dbb_09ec_4418_adf5_1aca5c57b89a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_54124be3_6bff_4730_8a3e_db5a5e787a3d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_9f8ac435_9aa9_4aa2_8654_ccb8752b1b9c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_9f8ac435_9aa9_4aa2_8654_ccb8752b1b9c">
+        <rdfs:label xml:lang="fr">FistCousin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_a6ad5d87_e172_4b30_8ca7_681dfa3d938e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_a6ad5d87_e172_4b30_8ca7_681dfa3d938e">
+        <rdfs:label xml:lang="fr">Uncle</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_b724a58a_d98f_4675_9109_e7f9f3c9533a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_b724a58a_d98f_4675_9109_e7f9f3c9533a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_b724a58a_d98f_4675_9109_e7f9f3c9533a">
+        <rdfs:label xml:lang="fr">Uncle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_c0325a1c_6e35_4dce_9632_07b0caa78b66 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_c0325a1c_6e35_4dce_9632_07b0caa78b66">
+        <rdfs:label xml:lang="fr">Sister</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d2e2dc04_0b5c_40da_9a27_90451d0796cc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d2e2dc04_0b5c_40da_9a27_90451d0796cc">
+        <rdfs:label xml:lang="fr">Brother</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_5fdca52a_2aed_4876_8e4a_d52778b0bb4a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d5de9ec1_3da1_4893_82cc_d0e50acc6b97 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d5de9ec1_3da1_4893_82cc_d0e50acc6b97">
+        <rdfs:label xml:lang="fr">Aunt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d6ba0dbb_09ec_4418_adf5_1aca5c57b89a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_d6ba0dbb_09ec_4418_adf5_1aca5c57b89a">
+        <rdfs:label xml:lang="fr">Husband</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_e79d8db0_7a6d_4527_a2f6_f7acfe079b7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_e79d8db0_7a6d_4527_a2f6_f7acfe079b7b">
+        <rdfs:label xml:lang="fr">Mother</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_f5aa6c1d_6f41_4d2a_8bbf_f180e2f349e3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Female"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_f5aa6c1d_6f41_4d2a_8bbf_f180e2f349e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLClass_f5aa6c1d_6f41_4d2a_8bbf_f180e2f349e3">
+        <rdfs:label xml:lang="fr">Mother</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Parent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Parent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Parent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Ancestor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Relative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Son -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Son">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#Child"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#AdinaRTaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#AdinaRTaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#BrianCTaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#BrianCTaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#ISabellaAGarcia -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#ISabellaAGarcia">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#JosephBTaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#JosephBTaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#MariaITaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#MariaITaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#MaryITaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#MaryITaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLNamedIndividual_919ce72b_7630_4592_91fe_ecd12babf928 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#OWLNamedIndividual_919ce72b_7630_4592_91fe_ecd12babf928">
+        <rdfs:label xml:lang="fr">AdamJTaylor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#RachelJCohen -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#RachelJCohen">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#SantiagoCGarcia -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#SantiagoCGarcia">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#SofiaMTaylor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#SofiaMTaylor">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#ThomasCGarcia -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-4#ThomasCGarcia">
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

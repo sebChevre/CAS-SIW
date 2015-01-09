@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>HTML - formes de bases</title>
+  <script type="text/javascript">
+	  function init () {
+	  	console.log(document.getElementById('svg1'));
+	  }
+  </script>
+</head>
+<body onload="init()">
+  		<object id="svg1" data="shape_sample.svg" width="900" height="600" style="border:1px solid black" type="image/svg+xml"></object> 
+  		<script>
+        var a = document.getElementById("svg1");
+
+        //it's important to add an load event listener to the object, as it will load the svg doc asynchronously
+        a.addEventListener("load",function(){
+        	var svgDoc = a.contentDocument;
+            var circle = svgDoc.getElementById('cercle');
+            
+            circle.addEventListener('click', function () {
+            	alert('click cercle');
+            });
+            
+            for(cpt=0; cpt<svgDoc.getElementsByClassName('standardEvent').length; cpt++){
+				svgDoc.getElementsByClassName('standardEvent')[cpt].addEventListener('click',function () {
+					alert('click shape');
+				});
+			}
+            
+            console.log(circle);
+        },false);
+    </script>
+</body>
+</html>

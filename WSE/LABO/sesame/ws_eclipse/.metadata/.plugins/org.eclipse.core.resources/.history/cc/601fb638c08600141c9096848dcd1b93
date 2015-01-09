@@ -1,0 +1,26 @@
+package mas.wse.rdf;
+
+import org.openrdf.repository.Repository;
+import org.openrdf.repository.RepositoryException;
+import org.openrdf.repository.config.RepositoryConfigException;
+import org.openrdf.repository.manager.RemoteRepositoryManager;
+
+public class EX3_4 {
+
+	
+	public static void main(String args[]){
+		
+	}
+	
+	
+	static Repository initializeRepoRemote() throws RepositoryException, RepositoryConfigException{
+		String serverUrl = "http://localhost:8080/openrdf-sesame";
+		RemoteRepositoryManager manager = new RemoteRepositoryManager(serverUrl);
+		manager.initialize();
+		
+		Repository repo = manager.getRepository("MAS_WSE");
+		repo.initialize();
+		return repo;
+		
+	}
+}

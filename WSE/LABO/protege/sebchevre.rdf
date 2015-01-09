@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rel "http://purl.org/vocab/relationship/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY geo "http://www.w3.org/2003/01/geo/wgs84_pos#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.websemantique.ch/people/"
+     xml:base="http://www.websemantique.ch/people/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rel="http://purl.org/vocab/relationship/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- http://purl.org/vocab/relationship/worksWith -->
+
+    <owl:AnnotationProperty rdf:about="&rel;worksWith"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#locationMap -->
+
+    <owl:AnnotationProperty rdf:about="&geo;locationMap"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/based_near -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;based_near"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/currentProject -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;currentProject"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/family_name -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;family_name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/gender -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;gender"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/givenname -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;givenname"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/img -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;img"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/interest -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;interest"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox_sha1sum -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;mbox_sha1sum"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/title -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;title"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/workplaceHomepage -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;workplaceHomepage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Point -->
+
+    <owl:Class rdf:about="&geo;Point"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="&foaf;Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.websemantique.ch/people/sebchevre -->
+
+    <owl:NamedIndividual rdf:about="http://www.websemantique.ch/people/sebchevre">
+        <rdf:type rdf:resource="&foaf;Person"/>
+        <foaf:mbox_sha1sum>82992205da558d26ce60b903268e4ffe350567de</foaf:mbox_sha1sum>
+        <foaf:givenname>Sébastien</foaf:givenname>
+        <foaf:title>M,</foaf:title>
+        <foaf:family_name>Chèvre</foaf:family_name>
+        <foaf:name>Sébastien Chèvre</foaf:name>
+        <foaf:gender>male</foaf:gender>
+        <foaf:workplaceHomepage rdf:resource="http://www.globaz.ch"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/page/Travel"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/page/XML"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Computer_programming"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Computers"/>
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Semantic_web"/>
+        <foaf:interest rdf:resource="http://fr.dbpedia.org/page/Photographie_panoramique"/>
+        <geo:locationMap rdf:resource="http://www.geonames.org/maps/google_47.335_7.205.html"/>
+        <rel:worksWith rdf:resource="http://www.websemantique.ch/people/dorianmagnin"/>
+        <foaf:img rdf:resource="http://www.websemantique.ch/people/images/sebchevre.jpg"/>
+        <foaf:currentProject rdf:resource="https://github.com/sebChevre/EasyJetProject"/>
+        <foaf:based_near>
+            <rdf:Description>
+                <rdf:type rdf:resource="&geo;Point"/>
+            </rdf:Description>
+        </foaf:based_near>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://fr.dbpedia.org/page/Photographie_panoramique">
+        <dc:title>Photographie</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/page/Travel">
+        <dc:title>Travel</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/page/XML">
+        <dc:title>XML</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Computer_programming">
+        <dc:title>Computer programming</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Semantic_web">
+        <dc:title>Semantic Web</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Computers">
+        <dc:title>Computers</dc:title>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="100%" height="100%"  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:link="http://www.w3.org/1999/xlink">
+
+
+
+  <g>
+
+    <circle id="point" cx="0" cy="0" r="5" fill="red" stroke="none">
+        <animateMotion
+              path="M10,50 q60,50 100,0 q60,-50 100,0"
+              begin="0s" dur="3s" repeatCount="1" fill="freeze"
+              />
+    </circle>
+
+
+  <path
+        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+        d="m 77.142857,112.36218 262.857143,0 17.14286,71.42857 -205.71429,77.14286 -54.285713,162.85714 97.142853,77.14286 197.14286,-125.71428 74.28572,65.71428 L 420,552.36218 l -168.57143,51.42857 -120,68.57143 0,134.28572 114.28572,48.57143 191.42857,-97.14286 171.42857,-234.28572 22.85714,-228.57142"
+        id="path3025"/>
+
+
+
+  </g>
+</svg>

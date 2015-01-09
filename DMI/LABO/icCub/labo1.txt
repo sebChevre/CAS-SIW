@@ -1,0 +1,33 @@
+1.
+SELECT [Measures].[SalesAmount] ON 0 
+FROM [Cube]
+WHERE [Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008]
+
+2.
+SELECT [Measures].[SalesAmount] ON 0 
+FROM [Cube]
+WHERE ([Dim.PROD].[Dim.PROD].[Produit].&[485],[Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008],[Dim.GEO].[Dim.GEO].[Country].[US].[California])
+
+3.
+SELECT [Measures].[SalesAmount] ON 0, [Dim.GEO].[Dim.GEO].[Country] ON 1
+FROM [Cube]
+WHERE ([Dim.PROD].[Dim.PROD].[Produit].&[485],[Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008])
+
+4.
+SELECT [Measures].[SalesAmount] ON 0, [Dim.TEMP].[Dim.TEMP.BySemester].[Trimestres] ON 1
+FROM [Cube]
+WHERE ([Dim.PROD].[Dim.PROD].[Produit].&[485],[Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008])
+
+--- toatl d'objet vendu
+SELECT [Measures].[SalesTotal] ON 0, [Dim.TEMP].[Dim.TEMP.BySemester].[Trimestres] ON 1
+FROM [Cube]
+WHERE ([Dim.PROD].[Dim.PROD].[Produit].&[485],[Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008])
+
+5.
+-- maximum des ventes d'un pays pour une annéee
+WITH
+	MEMBER [Measures].[SalesMax123] AS Max ([Dim.GEO].[Dim.GEO].[Country],[Measures].[SalesAmount])
+SELECT [Measures].[SalesMax123]  ON 0
+		--[Measures].[SalesAmount] on 0, [Dim.GEO].[Dim.GEO].[Country] on 1
+FROM [Cube]
+WHERE ([Dim.TEMP].[Dim.TEMP.ByYear].[Year].&[2008])

@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-2 "http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#article_pour_auteur -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;article_pour_auteur">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Article"/>
+        <rdfs:range rdf:resource="&untitled-ontology-2;Auteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#contenu -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;contenu">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Auteur"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#date -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;date">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#nom -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;nom">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Auteur"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#prénom -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;prénom">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Auteur"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#sexe -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;sexe">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Auteur"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#titre -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;titre">
+        <rdfs:domain rdf:resource="&untitled-ontology-2;Article"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#Article -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Article"/>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#Auteur -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Auteur"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#Editorial -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Editorial">
+        <rdf:type rdf:resource="&untitled-ontology-2;Article"/>
+        <date rdf:datatype="&xsd;dateTime">12</date>
+        <contenu rdf:datatype="&xsd;string">Edito du jour</contenu>
+        <titre rdf:datatype="&xsd;string">Editorial</titre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/2014/11/untitled-ontology-2#Sébastien_Chèvre -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Sébastien_Chèvre">
+        <rdf:type rdf:resource="&untitled-ontology-2;Auteur"/>
+        <nom rdf:datatype="&xsd;string">Chèvre</nom>
+        <sexe rdf:datatype="&xsd;string">M</sexe>
+        <prénom rdf:datatype="&xsd;string">Sébastien</prénom>
+        <article_pour_auteur rdf:resource="&untitled-ontology-2;Sébastien_Chèvre"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

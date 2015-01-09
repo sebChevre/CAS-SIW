@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" 
+	xmlns:link="http://www.w3.org/1999/xlink">
+
+<defs>
+	<symbol id="objet">
+		<circle cx="250" cy="250" r="45" fill="green" stroke="black" />
+		<polygon points="300 300, 400 400, 200 400" fill="red" />
+		<rect x="200" y="410" width="200" height="20" stroke="blue" fill="blue"/>
+	</symbol>
+</defs>
+
+<g>
+	<use xlink:href="#objet"/>
+</g>
+
+</svg>

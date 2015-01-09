@@ -1,0 +1,3 @@
+jdb url
+jdbc:mysql://localhost:8889/mas_dmi?user=root&password=root
+

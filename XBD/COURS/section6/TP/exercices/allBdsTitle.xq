@@ -1,0 +1,1 @@
+//bd/titre/text()
