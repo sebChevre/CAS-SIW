@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../css/bootstrap.css" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" href="../css/main.css" th:href="@{/css/main.css}"/>
+
+    <script type="text/javascript" th:src="@{/js/jquery.js}" />
+    <script type="text/javascript" th:src="@{/js/user_html.js}" />
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <button type="button" class="btn btn-default navbar-btn">Utilisateurs</button>
+    <button type="button" class="btn btn-default navbar-btn">Parcours</button>
+
+</nav>
+
+<div class="section" id="new_user_section">
+
+
+
+    <h1>Task activity <small>nouvel utilisateur</small></h1>
+    <form role="form" style="">
+
+        <div class="form-group">
+            <label>Username:</label>
+            <input id="username" class="form-control" type="text" name="username" />
+        </div>
+
+        <div class="form-group">
+            <label>Mot de passe:</label>
+            <input id="password" class="form-control" type="text" name="password" />
+        </div>
+
+        <button type="button" id="btn_add_user" class="btn btn-default" value="Ajouter utilisateur">Valider</button>
+
+    </form>
+
+
+</div>
+
+<div class="section" id="users_list_section">
+    <h1>Task activity <small>liste des utilisateurs</small></h1>
+    <button type="button" id="btn_open_user_form" class="btn btn-default" value="Ajouter utilisateur">Ajouter utilisateur</button>
+    <div>
+
+        <table  class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Utilisateur</th>
+                <th>Parcours</th>
+                <th>Ajout parcours</th>
+            </tr>
+            </thead>
+            <tbody id="usersResultZone">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+	"isssl":false,
+	"ssl":{
+		"port":4443,
+		"protocol":"https"
+	},
+	"http":{
+		"port":9999,
+		"protocol":"http"
+	},
+	"host":"localhost",
+	"init_data":false,
+	"init_data":false
+	
+}

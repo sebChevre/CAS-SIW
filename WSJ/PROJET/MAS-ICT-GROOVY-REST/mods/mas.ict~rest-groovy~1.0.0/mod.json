@@ -1,0 +1,7 @@
+{
+	//verticle de démarrage
+	"main":"app.groovy",
+	"auto-redeploy": true,
+	"description": "Ce module implémente un serveur Rest ",
+	"author": "Seb Chèvre"
+}
