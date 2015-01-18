@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WSE_DBPEDIA_QUERY:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/WSE_DBPEDIA_QUERY_war</output-path>
+    <root id="archive" name="WSE_DBPEDIA_QUERY_war.war">
+      <element id="artifact" artifact-name="WSE_DBPEDIA_QUERY:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Thymeleaf-2.1.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
