@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-ear" name="WSE_DBPEDIA_QUERY:ear exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/WSE_DBPEDIA_QUERY_ear_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="WSE_DBPEDIA_QUERY/javaeeApplication/javaEEApplication" />
-    </root>
-  </artifact>
-</component>
