@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+	body {
+	  font: 10px sans-serif;
+	}
+
+	
+	#sens_valeurs {
+		width: 160px;
+		
+	}
+	
+	#nombres_valeurs{
+		width: 160px;
+	}
+	
+	#wrapper{
+		margin:20px;
+	}
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+	.bar {
+	  fill: orange;
+	}
+
+	.bar:hover {
+	  fill: orangered ;
+	}
+
+	.x.axis path {
+	  display: none;
+	}
+
+	.d3-tip {
+	  line-height: 1;
+	  font-weight: bold;
+	  padding: 12px;
+	  background: rgba(0, 0, 0, 0.8);
+	  color: #fff;
+	  border-radius: 2px;
+	}
+
+	/* Creates a small triangle extender for the tooltip */
+	.d3-tip:after {
+	  box-sizing: border-box;
+	  display: inline;
+	  font-size: 10px;
+	  width: 100%;
+	  line-height: 1;
+	  color: rgba(0, 0, 0, 0.8);
+	  content: "\25BC";
+	  position: absolute;
+	  text-align: center;
+	}
+
+	/* Style northward tooltips differently */
+	.d3-tip.n:after {
+	  margin: -1px 0 0 0;
+	  top: 100%;
+	  left: 0;
+	}
+</style>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+var originData;
+var svg;
+var x,y;
+var xaxis, yAxis;
+var margin, height, width;
+var tip;
+
+$(function () {
+
+	console.log("debut init");
+	
+	d3.tsv("data.tsv", type, function(error, data) {
+		
+		originData = data;
+		draw();
+	});
+    
+	var nbreValeursSelection = $("#nombres_valeurs");
+	var sensValeursSelection = $("#sens_valeurs");
+
+	nbreValeursSelection.prop("selectedIndex", -1);
+	sensValeursSelection.prop("selectedIndex", -1);
+
+	nbreValeursSelection.on('change',function (){
+		
+		var sensValue = sensValeursSelection.find(":selected").val();
+		
+		if($(this).val()==='all'){
+			draw($(this).val(),sensValue)
+			$("#sens_valeurs").attr('disabled',true);
+		}
+		
+		else if(sensValue){
+			draw($(this).val(),sensValue)
+		}
+	});
+	
+	sensValeursSelection.on('change',function (){
+		
+		var nbreValue = nbreValeursSelection.find(":selected").val();
+		
+		if(nbreValue){
+			draw(nbreValue,$(this).val())
+		}
+	});
+	
+	console.log("ok init")
+	
+	initGraphZone();
+	
+});
+
+function initGraphZone(){
+	//marges de la zone de graphique
+	margin = {top: 40, right: 20, bottom: 120, left: 100},
+    width = 1200 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
+
+	formatPop = d3.format(",");
+
+	x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+	y = d3.scale.linear()
+    .range([height, 0]);
+
+	xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+	yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(formatPop);
+
+	tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<strong>" + d.pays + "<strong><br/><strong>Population:</strong> <span style='color:red'>" + formatPop(d.population) + "</span>";
+  })
+
+	svg = d3.select("#barChartZone").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  	.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.call(tip);
+}
+
+function draw(nbValues,sens) {
+
+	var data = originData;
+	
+	//tri des données selon population
+	data.sort(function(a,b){
+		return b.population - a.population;
+	});
+	
+	if(nbValues){
+		if(sens === '+'){
+			data = data.slice(0,nbValues);
+		}else{
+			console.log(data.length)
+			data = data.slice(data.length-nbValues,data.length-1)
+		}
+		
+	}
+	svg.select(".y.axis").remove();
+	svg.select(".x.axis").remove();
+	
+  	x.domain(data.map(function(d) { return d.pays; }));
+	
+  	y.domain([0, d3.max(data, function(d) { return d.population; })]);
+
+  	svg.append("g")
+   		.attr("class", "x axis")
+      	.attr("transform", "translate(0," + height + ")")
+      	.call(xAxis)
+		.selectAll("text")  
+     		.style("text-anchor", "end")
+     		.attr("dx", "-.8em")
+     		.attr("dy", ".15em")
+     		.attr("transform", function(d) {
+         		return "rotate(-65)" 
+         	});
+	
+
+	svg.append("g")
+      	.attr("class", "y axis")
+			.call(yAxis);
+
+  	var bar = svg.selectAll(".bar")
+			.data(data);
+			
+    bar.enter().append("rect")
+      	.attr("class", "bar")
+      	.attr("x", function(d) { 
+			return x(d.pays); 
+		})
+      	.attr("width", x.rangeBand())
+      	.attr("y", function(d) { 
+			return y(d.population); 
+		})
+      	.attr("height", function(d) { 
+			return height - y(d.population); 
+		})
+      	.on('mouseover', tip.show)
+      	.on('mouseout', tip.hide)
+		.on('click',function () {alert('ok')})
+	
+		bar.exit().remove();
+		    // updated data:
+		    bar
+		       .transition()
+		       .duration(750)
+		           .attr("y", function(d) { return y(d.population); })
+		           .attr("height", function(d) { return height - y(d.population); })
+	      		   .attr("x", function(d) { 
+				  return x(d.pays); 
+					})
+					.attr("width", x.rangeBand());
+
+}
+
+
+function type(d) {
+  d.population = +d.population;
+  console.log(d.population)
+  return d;
+}
+</script>
+</head>
+<body>
+	
+	<div id="wrapper">
+	
+		<div id="populationBarVisu">
+			
+			<div id="filterForm">
+				
+				
+					<fieldset>
+					<legend>Filtre</legend>
+					<div class="form-group">
+						
+						<select id="nombres_valeurs"  class="form-control" >
+							<option value="10">les 10 valeurs</option>
+							<option value="20">les 20 valeurs</option>
+							<option value="30">les 30 valeurs</option>
+							<option id="all_values" value="1000">tout</option>
+							
+						</select>
+					</div>
+					<div class="form-group">
+						
+						<select id="sens_valeurs" class="form-control">
+							<option value="+"> les plus hautes</option>
+							<option value="-">les plus basses</option>
+						</select>
+					</div>
+					</fieldset>
+				
+				
+			</div>
+			
+			<div id="barChartZone"></div>
+		</div>
+	</div>
+</body>
+</html>

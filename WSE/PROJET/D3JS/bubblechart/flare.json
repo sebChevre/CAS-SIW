@@ -1,0 +1,12 @@
+{
+ "name": "city",
+ "children": [
+	{
+		"name": "vis",
+		"children": [
+			{"name": "Delémont", "size": 11890},
+			{"name": "Vicques", "size": 1232}
+		]
+	}
+ ]
+}
