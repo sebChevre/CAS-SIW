@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="SOAP_WEBSERVICES_CLIENT:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOAP_WEBSERVICES_CLIENT_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SOAP_WEBSERVICES_CLIENT/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="SOAP_WEBSERVICES_CLIENT:war exploded2" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+      </element>
+    </root>
+  </artifact>
+</component>

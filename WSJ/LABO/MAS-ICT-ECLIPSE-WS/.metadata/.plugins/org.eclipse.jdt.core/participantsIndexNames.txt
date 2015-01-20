@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+/Users/seb/Dropbox/DEV/MAS-ICT/WSJ/MAS-ICT-ECLIPSE-WS/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2229217243.index
+/FirstWJS/src
+/Users/seb/Dropbox/DEV/MAS-ICT/WSJ/MAS-ICT-ECLIPSE-WS/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4103436846.index
+/FirstWJS/src

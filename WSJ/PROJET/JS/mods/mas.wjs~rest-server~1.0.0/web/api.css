@@ -1,0 +1,65 @@
+.mainWrapper{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+}
+
+.header_get{
+	background-color:#007FFF;
+	width:5%;
+}
+.header_post{
+	background-color:#f57878;
+	width:5%;
+}
+.header_get_path{
+	background-color:#E7f0F7;
+	font-weight: bold;
+}
+.header_post_path{
+	background-color:#fbc7c7;
+	font-weight: bold;
+}
+
+.header_get_desc{
+	background-color:#E7f0F7;
+	color:#007FFF;
+	width:15%;
+}
+.header_post_desc{
+	background-color:#fbc7c7;
+	color:#007FFF;
+	width:15%;
+}
+
+.section_title{
+	color:#23527c;
+	padding:10px;
+	font-weight: bold;
+}
+
+.model_members{
+	font-weight: bold;
+	padding-left:15px;
+}
+
+.messages{
+	margin-left: 20px;
+	max-width:90%;
+	font-size: 10px;
+}
+
+.model{
+	display: block;
+padding: 9.5px;
+margin-left:20px;
+margin-right:20px;
+font-size: 13px;
+line-height: 1.42857143;
+color: #333;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #f5f5f5;
+border: 1px solid #ccc;
+border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://webservices.test.soap/" xmlns:tns="http://webservices.test.soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="multiplication" type="tns:multiplication"/>
+
+  <xs:element name="multiplicationResponse" type="tns:multiplicationResponse"/>
+
+  <xs:complexType name="multiplication">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:float"/>
+      <xs:element name="arg1" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multiplicationResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

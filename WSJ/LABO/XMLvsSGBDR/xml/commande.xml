@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<commandes>
+  <commande id="10">
+    <date>Wed Sep 10 22:21:02 CEST 2014</date>
+    <client id="120"/>
+    <produits>
+      <produit id="326">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="377">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="11">
+    <date>Wed Sep 10 22:21:02 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="390">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="333">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="396">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="12">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="400">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="307">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="302">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="13">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="348">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="14">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="353">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="367">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="363">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="316">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="15">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="395">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="16">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="331">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="335">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="17">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="109"/>
+    <produits>
+      <produit id="394">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="379">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="18">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="349">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="361">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="19">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="354">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="335">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="20">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="112"/>
+    <produits>
+      <produit id="314">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="360">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="363">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="392">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="21">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="138"/>
+    <produits>
+      <produit id="373">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="343">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="395">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="327">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="384">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="22">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="370">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="23">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="375">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="24">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="123"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="350">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="374">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="341">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="25">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="331">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="307">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="348">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="26">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="128"/>
+    <produits>
+      <produit id="394">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="27">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="121"/>
+    <produits>
+      <produit id="354">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="314">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="326">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="28">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="374">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="374">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="385">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="29">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="119"/>
+    <produits>
+      <produit id="313">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="30">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="363">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="366">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="304">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="31">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="333">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="334">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="364">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="32">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="302">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="33">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="363">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="332">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="34">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="350">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="368">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="323">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="35">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="118"/>
+    <produits>
+      <produit id="370">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="390">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="36">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="121"/>
+    <produits>
+      <produit id="341">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="343">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="37">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="366">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="321">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="358">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="336">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="38">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="335">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="351">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="354">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="399">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="39">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="385">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="352">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="361">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="40">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="309">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="323">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="41">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="335">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="42">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="352">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="43">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="355">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="359">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="323">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="359">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="44">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="311">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="352">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="45">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="107"/>
+    <produits>
+      <produit id="361">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="390">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="46">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="124"/>
+    <produits>
+      <produit id="391">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="348">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="346">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="362">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="47">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="351">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="336">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="48">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="320">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="49">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="321">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="315">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="50">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="118"/>
+    <produits>
+      <produit id="322">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="311">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="51">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="123"/>
+    <produits>
+      <produit id="362">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="332">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="333">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="320">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="52">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="115"/>
+    <produits>
+      <produit id="344">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="329">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="318">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="373">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="53">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="315">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="315">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="351">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="364">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="54">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="122"/>
+    <produits>
+      <produit id="313">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="338">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="55">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="302">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="56">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="379">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="358">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="57">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="377">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="385">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="58">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="400">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="59">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="365">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="60">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="356">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="359">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="61">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="123"/>
+    <produits>
+      <produit id="376">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="367">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="377">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="62">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="400">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="63">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="115"/>
+    <produits>
+      <produit id="317">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="342">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="323">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="64">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="138"/>
+    <produits>
+      <produit id="307">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="351">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="312">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="357">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="65">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="383">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="66">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="118"/>
+    <produits>
+      <produit id="316">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="362">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="325">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="324">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="67">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="339">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="68">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="112"/>
+    <produits>
+      <produit id="361">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="366">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="367">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="373">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="69">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="333">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="366">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="397">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="70">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="316">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="387">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="71">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="315">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="72">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="327">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="73">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="391">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="323">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="74">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="107"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="372">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="372">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="372">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="311">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="75">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="332">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="343">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="76">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="107"/>
+    <produits>
+      <produit id="324">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="375">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="77">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="311">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="373">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="337">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="365">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="307">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="78">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="362">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="379">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="352">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="79">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="328">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="327">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="353">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="80">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="113"/>
+    <produits>
+      <produit id="333">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="81">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="121"/>
+    <produits>
+      <produit id="325">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="82">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="126"/>
+    <produits>
+      <produit id="332">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="312">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="329">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="83">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="398">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="396">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="386">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="336">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="84">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="128"/>
+    <produits>
+      <produit id="320">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="85">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="396">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="86">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="109"/>
+    <produits>
+      <produit id="351">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="87">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="323">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="315">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="88">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="128"/>
+    <produits>
+      <produit id="367">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="89">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="345">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="400">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="90">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="342">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="91">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="332">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="348">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="92">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="113"/>
+    <produits>
+      <produit id="307">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="395">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="353">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="384">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="400">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="93">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="115"/>
+    <produits>
+      <produit id="317">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="94">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="384">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="95">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="126"/>
+    <produits>
+      <produit id="376">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="306">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="96">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="126"/>
+    <produits>
+      <produit id="338">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="97">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="139"/>
+    <produits>
+      <produit id="356">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="98">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="363">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="309">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="99">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="388">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="348">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="100">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="136"/>
+    <produits>
+      <produit id="312">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="101">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="357">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="341">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="367">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="102">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="341">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="307">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="103">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="138"/>
+    <produits>
+      <produit id="338">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="104">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="115"/>
+    <produits>
+      <produit id="377">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="105">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="118"/>
+    <produits>
+      <produit id="351">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="344">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="106">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="119"/>
+    <produits>
+      <produit id="357">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="107">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="113"/>
+    <produits>
+      <produit id="388">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="334">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="108">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="112"/>
+    <produits>
+      <produit id="355">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="109">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="338">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="332">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="110">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="349">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="394">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="111">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="327">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="378">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="112">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="139"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="314">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="393">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="304">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="113">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="136"/>
+    <produits>
+      <produit id="370">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="114">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="123"/>
+    <produits>
+      <produit id="341">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="378">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="115">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="391">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="116">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="331">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="375">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="389">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="387">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="117">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="124"/>
+    <produits>
+      <produit id="314">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="320">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="118">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="123"/>
+    <produits>
+      <produit id="380">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="326">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="119">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="310">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="120">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="366">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="316">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="383">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="121">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="122">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="375">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="123">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="303">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="400">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="378">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="329">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="124">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="114"/>
+    <produits>
+      <produit id="319">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="318">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="125">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="379">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="327">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="126">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="113"/>
+    <produits>
+      <produit id="386">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="357">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="378">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="345">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="127">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="325">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="394">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="377">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="128">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="321">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="374">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="302">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="129">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="332">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="321">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="338">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="130">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="305">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="386">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="131">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="307">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="378">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="132">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="320">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="133">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="138"/>
+    <produits>
+      <produit id="315">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="134">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="120"/>
+    <produits>
+      <produit id="393">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="304">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="345">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="135">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="139"/>
+    <produits>
+      <produit id="381">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="136">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="109"/>
+    <produits>
+      <produit id="355">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="137">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="339">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="327">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="138">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="127"/>
+    <produits>
+      <produit id="359">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="363">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="394">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="139">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="343">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="318">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="140">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="391">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="303">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="350">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="141">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="136"/>
+    <produits>
+      <produit id="314">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="142">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="126"/>
+    <produits>
+      <produit id="350">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="359">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="143">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="331">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="338">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="325">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="342">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="144">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="323">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="145">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="350">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="146">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="331">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="147">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="392">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="148">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="387">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="149">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="333">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="150">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="120"/>
+    <produits>
+      <produit id="333">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="396">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="390">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="396">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="365">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="151">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="115"/>
+    <produits>
+      <produit id="351">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="307">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="349">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="302">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="152">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="385">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="153">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="367">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="349">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="313">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="397">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="351">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="154">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="370">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="368">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="155">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="366">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="368">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="337">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="156">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="361">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="360">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="382">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="360">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="157">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="372">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="389">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="158">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="118"/>
+    <produits>
+      <produit id="302">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="358">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="302">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="322">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="159">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="107"/>
+    <produits>
+      <produit id="363">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="375">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="391">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="352">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="326">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="160">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="131"/>
+    <produits>
+      <produit id="377">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="161">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="400">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="398">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="374">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="362">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="374">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="162">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="322">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="163">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="379">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="164">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="126"/>
+    <produits>
+      <produit id="324">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="165">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="376">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="333">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="311">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="166">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="128"/>
+    <produits>
+      <produit id="392">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="365">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="377">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="391">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="167">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="130"/>
+    <produits>
+      <produit id="350">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="336">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="316">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="168">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="140"/>
+    <produits>
+      <produit id="362">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="358">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="169">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="128"/>
+    <produits>
+      <produit id="344">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="310">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="170">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="121"/>
+    <produits>
+      <produit id="354">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="329">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="316">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="171">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="107"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="354">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="172">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="121"/>
+    <produits>
+      <produit id="325">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="315">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="399">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="173">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="337">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="174">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="368">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="370">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="175">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="303">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="314">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="317">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="304">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="348">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="176">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="305">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="309">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="177">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="370">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="353">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="349">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="178">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="329">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="347">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="179">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="347">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="180">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="336">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="181">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="133"/>
+    <produits>
+      <produit id="372">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="341">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="345">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="182">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="360">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="183">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="134"/>
+    <produits>
+      <produit id="398">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="328">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="184">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="399">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="334">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="384">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="361">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="185">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="109"/>
+    <produits>
+      <produit id="355">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="186">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="135"/>
+    <produits>
+      <produit id="351">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="397">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="357">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="379">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="187">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="309">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="311">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="188">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="139"/>
+    <produits>
+      <produit id="397">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="399">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="329">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="305">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="189">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="122"/>
+    <produits>
+      <produit id="391">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="308">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="390">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="367">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="190">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="112"/>
+    <produits>
+      <produit id="381">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="191">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="368">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="192">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="116"/>
+    <produits>
+      <produit id="314">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="396">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="373">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="325">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="339">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="193">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="367">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="194">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="373">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="395">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="364">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="330">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="195">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="110"/>
+    <produits>
+      <produit id="334">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="319">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="356">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="365">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="387">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="196">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="119"/>
+    <produits>
+      <produit id="323">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="346">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="362">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="366">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="197">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="137"/>
+    <produits>
+      <produit id="325">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="379">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="318">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="198">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="136"/>
+    <produits>
+      <produit id="338">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="390">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="383">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="199">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="136"/>
+    <produits>
+      <produit id="328">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="371">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="200">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="108"/>
+    <produits>
+      <produit id="385">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="344">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="373">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="201">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="120"/>
+    <produits>
+      <produit id="363">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="345">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="355">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="202">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="129"/>
+    <produits>
+      <produit id="356">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="332">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="203">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="117"/>
+    <produits>
+      <produit id="356">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="376">
+        <quantite>2</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="204">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="113"/>
+    <produits>
+      <produit id="321">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="303">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="369">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="388">
+        <quantite>4</quantite>
+      </produit>
+      <produit id="380">
+        <quantite>5</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="205">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="119"/>
+    <produits>
+      <produit id="383">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="368">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="362">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="206">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="125"/>
+    <produits>
+      <produit id="307">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="381">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="331">
+        <quantite>3</quantite>
+      </produit>
+      <produit id="345">
+        <quantite>4</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="207">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="381">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="208">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="132"/>
+    <produits>
+      <produit id="398">
+        <quantite>1</quantite>
+      </produit>
+      <produit id="360">
+        <quantite>2</quantite>
+      </produit>
+      <produit id="391">
+        <quantite>3</quantite>
+      </produit>
+    </produits>
+  </commande>
+  <commande id="209">
+    <date>Wed Sep 10 22:21:03 CEST 2014</date>
+    <client id="111"/>
+    <produits>
+      <produit id="309">
+        <quantite>1</quantite>
+      </produit>
+    </produits>
+  </commande>
+</commandes>

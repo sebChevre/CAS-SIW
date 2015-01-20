@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<produits>
+  <produit id="301">
+    <description>Description du produit test n° 0</description>
+    <prix>50.45</prix>
+  </produit>
+  <produit id="302">
+    <description>Description du produit test n° 1</description>
+    <prix>4.25</prix>
+  </produit>
+  <produit id="303">
+    <description>Description du produit test n° 2</description>
+    <prix>96.55</prix>
+  </produit>
+  <produit id="304">
+    <description>Description du produit test n° 3</description>
+    <prix>91.73</prix>
+  </produit>
+  <produit id="305">
+    <description>Description du produit test n° 4</description>
+    <prix>55.12</prix>
+  </produit>
+  <produit id="306">
+    <description>Description du produit test n° 5</description>
+    <prix>28.74</prix>
+  </produit>
+  <produit id="307">
+    <description>Description du produit test n° 6</description>
+    <prix>4.16</prix>
+  </produit>
+  <produit id="308">
+    <description>Description du produit test n° 7</description>
+    <prix>70.72</prix>
+  </produit>
+  <produit id="309">
+    <description>Description du produit test n° 8</description>
+    <prix>85.01</prix>
+  </produit>
+  <produit id="310">
+    <description>Description du produit test n° 9</description>
+    <prix>35.07</prix>
+  </produit>
+  <produit id="311">
+    <description>Description du produit test n° 10</description>
+    <prix>90.29</prix>
+  </produit>
+  <produit id="312">
+    <description>Description du produit test n° 11</description>
+    <prix>33.06</prix>
+  </produit>
+  <produit id="313">
+    <description>Description du produit test n° 12</description>
+    <prix>55.80</prix>
+  </produit>
+  <produit id="314">
+    <description>Description du produit test n° 13</description>
+    <prix>67.59</prix>
+  </produit>
+  <produit id="315">
+    <description>Description du produit test n° 14</description>
+    <prix>94.91</prix>
+  </produit>
+  <produit id="316">
+    <description>Description du produit test n° 15</description>
+    <prix>13.34</prix>
+  </produit>
+  <produit id="317">
+    <description>Description du produit test n° 16</description>
+    <prix>80.16</prix>
+  </produit>
+  <produit id="318">
+    <description>Description du produit test n° 17</description>
+    <prix>44.35</prix>
+  </produit>
+  <produit id="319">
+    <description>Description du produit test n° 18</description>
+    <prix>32.05</prix>
+  </produit>
+  <produit id="320">
+    <description>Description du produit test n° 19</description>
+    <prix>86.50</prix>
+  </produit>
+  <produit id="321">
+    <description>Description du produit test n° 20</description>
+    <prix>25.02</prix>
+  </produit>
+  <produit id="322">
+    <description>Description du produit test n° 21</description>
+    <prix>31.82</prix>
+  </produit>
+  <produit id="323">
+    <description>Description du produit test n° 22</description>
+    <prix>77.18</prix>
+  </produit>
+  <produit id="324">
+    <description>Description du produit test n° 23</description>
+    <prix>0.67</prix>
+  </produit>
+  <produit id="325">
+    <description>Description du produit test n° 24</description>
+    <prix>87.73</prix>
+  </produit>
+  <produit id="326">
+    <description>Description du produit test n° 25</description>
+    <prix>11.44</prix>
+  </produit>
+  <produit id="327">
+    <description>Description du produit test n° 26</description>
+    <prix>12.84</prix>
+  </produit>
+  <produit id="328">
+    <description>Description du produit test n° 27</description>
+    <prix>63.15</prix>
+  </produit>
+  <produit id="329">
+    <description>Description du produit test n° 28</description>
+    <prix>90.76</prix>
+  </produit>
+  <produit id="330">
+    <description>Description du produit test n° 29</description>
+    <prix>40.29</prix>
+  </produit>
+  <produit id="331">
+    <description>Description du produit test n° 30</description>
+    <prix>5.85</prix>
+  </produit>
+  <produit id="332">
+    <description>Description du produit test n° 31</description>
+    <prix>63.45</prix>
+  </produit>
+  <produit id="333">
+    <description>Description du produit test n° 32</description>
+    <prix>11.70</prix>
+  </produit>
+  <produit id="334">
+    <description>Description du produit test n° 33</description>
+    <prix>72.56</prix>
+  </produit>
+  <produit id="335">
+    <description>Description du produit test n° 34</description>
+    <prix>58.44</prix>
+  </produit>
+  <produit id="336">
+    <description>Description du produit test n° 35</description>
+    <prix>96.56</prix>
+  </produit>
+  <produit id="337">
+    <description>Description du produit test n° 36</description>
+    <prix>10.98</prix>
+  </produit>
+  <produit id="338">
+    <description>Description du produit test n° 37</description>
+    <prix>27.19</prix>
+  </produit>
+  <produit id="339">
+    <description>Description du produit test n° 38</description>
+    <prix>22.55</prix>
+  </produit>
+  <produit id="340">
+    <description>Description du produit test n° 39</description>
+    <prix>31.81</prix>
+  </produit>
+  <produit id="341">
+    <description>Description du produit test n° 40</description>
+    <prix>93.02</prix>
+  </produit>
+  <produit id="342">
+    <description>Description du produit test n° 41</description>
+    <prix>57.69</prix>
+  </produit>
+  <produit id="343">
+    <description>Description du produit test n° 42</description>
+    <prix>91.79</prix>
+  </produit>
+  <produit id="344">
+    <description>Description du produit test n° 43</description>
+    <prix>57.75</prix>
+  </produit>
+  <produit id="345">
+    <description>Description du produit test n° 44</description>
+    <prix>38.36</prix>
+  </produit>
+  <produit id="346">
+    <description>Description du produit test n° 45</description>
+    <prix>4.86</prix>
+  </produit>
+  <produit id="347">
+    <description>Description du produit test n° 46</description>
+    <prix>88.55</prix>
+  </produit>
+  <produit id="348">
+    <description>Description du produit test n° 47</description>
+    <prix>21.97</prix>
+  </produit>
+  <produit id="349">
+    <description>Description du produit test n° 48</description>
+    <prix>73.96</prix>
+  </produit>
+  <produit id="350">
+    <description>Description du produit test n° 49</description>
+    <prix>90.38</prix>
+  </produit>
+  <produit id="351">
+    <description>Description du produit test n° 50</description>
+    <prix>45.26</prix>
+  </produit>
+  <produit id="352">
+    <description>Description du produit test n° 51</description>
+    <prix>76.30</prix>
+  </produit>
+  <produit id="353">
+    <description>Description du produit test n° 52</description>
+    <prix>6.93</prix>
+  </produit>
+  <produit id="354">
+    <description>Description du produit test n° 53</description>
+    <prix>39.78</prix>
+  </produit>
+  <produit id="355">
+    <description>Description du produit test n° 54</description>
+    <prix>38.24</prix>
+  </produit>
+  <produit id="356">
+    <description>Description du produit test n° 55</description>
+    <prix>32.38</prix>
+  </produit>
+  <produit id="357">
+    <description>Description du produit test n° 56</description>
+    <prix>32.87</prix>
+  </produit>
+  <produit id="358">
+    <description>Description du produit test n° 57</description>
+    <prix>7.17</prix>
+  </produit>
+  <produit id="359">
+    <description>Description du produit test n° 58</description>
+    <prix>70.13</prix>
+  </produit>
+  <produit id="360">
+    <description>Description du produit test n° 59</description>
+    <prix>30.38</prix>
+  </produit>
+  <produit id="361">
+    <description>Description du produit test n° 60</description>
+    <prix>44.09</prix>
+  </produit>
+  <produit id="362">
+    <description>Description du produit test n° 61</description>
+    <prix>10.77</prix>
+  </produit>
+  <produit id="363">
+    <description>Description du produit test n° 62</description>
+    <prix>12.67</prix>
+  </produit>
+  <produit id="364">
+    <description>Description du produit test n° 63</description>
+    <prix>24.59</prix>
+  </produit>
+  <produit id="365">
+    <description>Description du produit test n° 64</description>
+    <prix>5.59</prix>
+  </produit>
+  <produit id="366">
+    <description>Description du produit test n° 65</description>
+    <prix>78.19</prix>
+  </produit>
+  <produit id="367">
+    <description>Description du produit test n° 66</description>
+    <prix>15.44</prix>
+  </produit>
+  <produit id="368">
+    <description>Description du produit test n° 67</description>
+    <prix>93.48</prix>
+  </produit>
+  <produit id="369">
+    <description>Description du produit test n° 68</description>
+    <prix>36.57</prix>
+  </produit>
+  <produit id="370">
+    <description>Description du produit test n° 69</description>
+    <prix>43.71</prix>
+  </produit>
+  <produit id="371">
+    <description>Description du produit test n° 70</description>
+    <prix>58.06</prix>
+  </produit>
+  <produit id="372">
+    <description>Description du produit test n° 71</description>
+    <prix>89.12</prix>
+  </produit>
+  <produit id="373">
+    <description>Description du produit test n° 72</description>
+    <prix>34.35</prix>
+  </produit>
+  <produit id="374">
+    <description>Description du produit test n° 73</description>
+    <prix>35.69</prix>
+  </produit>
+  <produit id="375">
+    <description>Description du produit test n° 74</description>
+    <prix>73.62</prix>
+  </produit>
+  <produit id="376">
+    <description>Description du produit test n° 75</description>
+    <prix>50.89</prix>
+  </produit>
+  <produit id="377">
+    <description>Description du produit test n° 76</description>
+    <prix>3.77</prix>
+  </produit>
+  <produit id="378">
+    <description>Description du produit test n° 77</description>
+    <prix>41.78</prix>
+  </produit>
+  <produit id="379">
+    <description>Description du produit test n° 78</description>
+    <prix>99.07</prix>
+  </produit>
+  <produit id="380">
+    <description>Description du produit test n° 79</description>
+    <prix>22.00</prix>
+  </produit>
+  <produit id="381">
+    <description>Description du produit test n° 80</description>
+    <prix>10.20</prix>
+  </produit>
+  <produit id="382">
+    <description>Description du produit test n° 81</description>
+    <prix>42.03</prix>
+  </produit>
+  <produit id="383">
+    <description>Description du produit test n° 82</description>
+    <prix>15.03</prix>
+  </produit>
+  <produit id="384">
+    <description>Description du produit test n° 83</description>
+    <prix>23.74</prix>
+  </produit>
+  <produit id="385">
+    <description>Description du produit test n° 84</description>
+    <prix>57.11</prix>
+  </produit>
+  <produit id="386">
+    <description>Description du produit test n° 85</description>
+    <prix>55.35</prix>
+  </produit>
+  <produit id="387">
+    <description>Description du produit test n° 86</description>
+    <prix>21.48</prix>
+  </produit>
+  <produit id="388">
+    <description>Description du produit test n° 87</description>
+    <prix>62.03</prix>
+  </produit>
+  <produit id="389">
+    <description>Description du produit test n° 88</description>
+    <prix>0.12</prix>
+  </produit>
+  <produit id="390">
+    <description>Description du produit test n° 89</description>
+    <prix>53.81</prix>
+  </produit>
+  <produit id="391">
+    <description>Description du produit test n° 90</description>
+    <prix>58.81</prix>
+  </produit>
+  <produit id="392">
+    <description>Description du produit test n° 91</description>
+    <prix>63.50</prix>
+  </produit>
+  <produit id="393">
+    <description>Description du produit test n° 92</description>
+    <prix>48.79</prix>
+  </produit>
+  <produit id="394">
+    <description>Description du produit test n° 93</description>
+    <prix>60.77</prix>
+  </produit>
+  <produit id="395">
+    <description>Description du produit test n° 94</description>
+    <prix>24.19</prix>
+  </produit>
+  <produit id="396">
+    <description>Description du produit test n° 95</description>
+    <prix>64.48</prix>
+  </produit>
+  <produit id="397">
+    <description>Description du produit test n° 96</description>
+    <prix>74.55</prix>
+  </produit>
+  <produit id="398">
+    <description>Description du produit test n° 97</description>
+    <prix>63.88</prix>
+  </produit>
+  <produit id="399">
+    <description>Description du produit test n° 98</description>
+    <prix>52.13</prix>
+  </produit>
+  <produit id="400">
+    <description>Description du produit test n° 99</description>
+    <prix>4.85</prix>
+  </produit>
+</produits>

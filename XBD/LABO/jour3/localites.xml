@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localites>
+	<localite code="LOC001">
+		<nom>Delémont</nom>
+		<lat>34.232</lat>
+		<lng>12.232</lng>
+	</localite>
+	<localite code="LOC002">
+		<nom>Courtételle</nom>
+		<lat>34.232</lat>
+		<lng>12.232</lng>
+	</localite>
+	<localite code="LOC003">
+		<nom>Courroux</nom>
+		<lat>34.232</lat>
+		<lng>12.232</lng>
+	</localite>
+	<localite code="LOC004">
+		<nom>Mettembert</nom>
+		<lat>34.232</lat>
+		<lng>12.232</lng>
+	</localite>
+	<localite code="LOC005">
+		<nom>Bassecourt</nom>
+		<lat>34.232</lat>
+		<lng>12.232</lng>
+	</localite>
+</localites>

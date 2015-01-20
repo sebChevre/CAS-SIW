@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="retrofit.http.GET"/>
+<fullyQualifiedTypeName name="retrofit.http.Path"/>
+<fullyQualifiedTypeName name="retrofit.RestAdapter"/>
+<fullyQualifiedTypeName name="wsj.vertx.test.serviceinterface.TaskActivityService"/>
+<fullyQualifiedTypeName name="wsj.vertx.test.serviceinterface.User"/>
+<fullyQualifiedTypeName name="retrofit.converter.Converter"/>
+<fullyQualifiedTypeName name="retrofit.converter.ConversionException"/>
+<fullyQualifiedTypeName name="wsj.vertx.test.serviceinterface.SimpleXMLConverter"/>
+<fullyQualifiedTypeName name="org.simpleframework.xml.Element"/>
+<fullyQualifiedTypeName name="org.simpleframework.xml.Root"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="wsj.vertx.test.serviceinterface.Users"/>
+<fullyQualifiedTypeName name="org.simpleframework.xml.ElementList"/>
+</qualifiedTypeNameHistroy>

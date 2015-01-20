@@ -1,0 +1,12 @@
+{
+	"port":9999,
+	"host":"localhost",
+	"ssl":false,
+	"ssl_port":4443,
+	"admin_user":{
+		"user":"root",
+		"pass":"root"
+	},
+	"init_data":false
+	
+}

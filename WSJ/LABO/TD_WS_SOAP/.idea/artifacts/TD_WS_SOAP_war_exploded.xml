@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TD_WS_SOAP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TD_WS_SOAP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TD_WS_SOAP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TD_WS_SOAP" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

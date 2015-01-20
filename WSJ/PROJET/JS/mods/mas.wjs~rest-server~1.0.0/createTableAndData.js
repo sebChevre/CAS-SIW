@@ -1,0 +1,173 @@
+var container = require('vertx/container');
+var logger = container.logger;
+var config = container.config;
+var eventBus = require('vertx/event_bus');
+
+var init_data = {"users": [
+		{"_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","username":"seb","password":"esteban11"},
+		{"_id":"73b3c50a-1e66-9999-yxfq-904be3a05bf6","username":"jack","password":"esteban11"},
+		{"_id":"73b3c50a-1e44-4215-sdfd-904be3a05bf6","username":"picsou","password":"esteban11"},
+		{"_id":"73b3c50a-1e54-4655-abfd-904be3a05bf6","username":"mickey","password":"esteban11"},
+		{"_id":"73b3c50a-1e54-2321-abfd-904be3a05bf6","username":"david","password":"esteban11"},
+		{"_id":"79r2c99s-1s22-0675-abfd-904be3a05bf6","username":"joe","password":"esteban11"}
+	],
+	"tracks": [
+		{"_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Tour de l'EAIFR", "date":1127980541318, "description": "Parcours a pied de l'école d'ingénieur de Fribourg"},
+		{"_id":"91r5t98a-1w54-9600-yxsd-904rt3c23pr0","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Balade à Bassecourt", "date":1127980541318, "description": "Parcours a pied autour de Bassecourt"},
+		{"_id":"91r5t98a-1w54-9665-zzzz-222rt2a23de1","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Tour de l'HEIG-VD", "date":1127980541318, "description": "Parcours a pied de l'école d'ingénieur d'Yverdon"},
+		{"_id":"91r5t98a-1w54-9665-yyyy-904rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Tour de Moron", "date":1127980541318, "description": "Balade à pied autour le la Tour de Moron"},
+		{"_id":"91r5t98a-1qws-9225-abcd-104rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Les éoliennes de Mt-Soleil", "date":1127980541318, "description": "Découverte des éoliennes de Mt-Soleil"},
+		{"_id":"91r5t98a-1wcd-9635-ccdd-904rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Lucerne", "date":1127980541318, "description": "Découverte de la ville de Lucerne"},
+		{"_id":"91r5t18q-1x54-9665-abdd-904rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Les 3 lacs", "date":1127980541318, "description": "Bienne-Neuchâtel-Morat, balade Lacustre"},
+		{"_id":"93r5z18a-1w54-9665-azdd-904rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Les arènes d'Avenches", "date":1127980541318, "description": "Escapade romaine"},
+		{"_id":"91r5t98a-1w54-9665-atzd-431rt3a23de9","user_id":"73b3c50a-1e54-4665-abdd-904rt3a23de9","name":"Direction HEPIA", "date":1127980541318, "description": "Parcours Gare Cornavin-HEPIA"}
+		
+	],
+	"waypoints" : [
+				{"_id":"11r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.158708515544165,"longitude":46.7936567204685,"no":1},
+				{"_id":"12r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159267244804724,"longitude":46.79362422553758,"no":2},
+				{"_id":"13r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159624887341829,"longitude":46.79356309101911,"no":3}, 
+				{"_id":"14r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.15988538261742,"longitude":46.79344003165679,"no":4},
+				{"_id":"15r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160091762785814,"longitude":46.7932578390954,"no":5},
+				{"_id":"16r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160274621807159,"longitude":46.79311426273853,"no":6},
+				{"_id":"17r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160447863001169,"longitude":46.79304843548056,"no":7},
+				{"_id":"18r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160634505659238,"longitude":46.79291523212186,"no":8},
+				{"_id":"19r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160828035758204,"longitude":46.79275328995895,"no":9},
+				{"_id":"20r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160974252719643,"longitude":46.79262230495001,"no":10},
+				{"_id":"21r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.161110893680689,"longitude":46.79251093466738,"no":11},
+				{"_id":"22r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.161181880173572,"longitude":46.79239183266161,"no":12},
+				{"_id":"23r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.161008071788189,"longitude":46.79229719047412,"no":13},
+				{"_id":"24r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160867329459297,"longitude":46.79221362466325,"no":14},
+				{"_id":"25r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160741750217852,"longitude":46.79213083190582,"no":15},
+				{"_id":"26r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160752592174784,"longitude":46.79200262530262,"no":16},
+				{"_id":"27r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.16067513354899,"longitude":46.79191739900987,"no":17},
+				{"_id":"28r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160482118340575,"longitude":46.79195337727576,"no":18},
+				{"_id":"29r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160367520152995,"longitude":46.79203947488922,"no":19},
+				{"_id":"30r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160245505128571,"longitude":46.79215864973653,"no":20},
+				{"_id":"31r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.160107558232585,"longitude":46.79228442995596,"no":21},
+				{"_id":"32r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159980820842382,"longitude":46.79240280962377,"no":22},
+				{"_id":"33r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159824178595628,"longitude":46.79254221364076,"no":23},
+				{"_id":"34r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159665819230428,"longitude":46.79270496298105,"no":24},
+				{"_id":"35r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.15945290143943,"longitude":46.79288118745113,"no":25},
+				{"_id":"36r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159286131751131,"longitude":46.79300911916945,"no":26},
+				{"_id":"37r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.159116416306752,"longitude":46.79318198445199,"no":27},
+				{"_id":"38r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.158912375961473,"longitude":46.79338054173238,"no":28},
+				{"_id":"39r5t98a-1w54-9665-atzd-431rt3a23de9","track_id":"91r5t98a-1w54-9665-abdd-904rt3a23de9","latitude":7.158704081139642,"longitude":46.79355061710083,"no":29} 
+			
+	]
+}
+
+var users = init_data.users;
+var tracks = init_data.tracks;
+var points = init_data.waypoints;
+
+logger.info(JSON.stringify(init_data));
+
+
+
+for(user in users){
+	var pass = users[user].password;
+	users[user].password = CryptoJS.MD5(pass).toString() ;
+}
+
+
+//Déploiement module mongodb
+//si db existe pas creation 
+container.deployModule("io.vertx~mod-mongo-persistor~2.0.0-final",{
+	address: "mongodb-init",
+	db_name: "mas-wsj"
+},function (reply) {
+	//logger.info(JSON.stringify(reply));
+	start();
+	
+});
+
+var start = function () {
+	eventBus.send('mongodb-init',{
+		action: 'command',  
+		command: "{dropDatabase: 1}"
+	},
+	function(reply) {
+		logger.info(reply.status);
+		logger.info('db dropped');
+		
+		insertData();
+		
+	});
+};
+
+var insertData = function () {
+	
+	var users = config.users;
+	
+	
+	
+		var cmd = {};
+		cmd.insert = "users";
+		cmd.documents = users;
+		
+		//logger.info(JSON.stringify(cmd));
+	
+		eventBus.send('mongodb-init',{
+			action: 'command', 
+			command: JSON.stringify(cmd)
+			
+		},
+		function(reply) {
+			
+			
+			logger.info(JSON.stringify(reply));
+			
+			insertTracks();
+		});
+	//}
+	
+}
+
+var insertTracks = function (){
+	
+	logger.info('insert tracks for user');
+	//logger.info(JSON.stringify(users[user]));
+	var tracks = config.tracks;
+	var cmd = {};
+		cmd.insert = "tracks";
+		cmd.documents = tracks;
+
+
+	
+	eventBus.send('mongodb-init',{
+			action: 'command', 
+			command: JSON.stringify(cmd)
+		},
+		function(reply) {
+			logger.info('Track saving:');
+			
+			insertPoints();
+			
+		});
+	
+}
+
+var insertPoints = function () {
+	logger.info('insert tracks for user');
+	//logger.info(JSON.stringify(users[user]));
+	var points = config.waypoints;
+	logger.info(points);
+	
+	var cmd = {};
+		cmd.insert = "waypoints";
+		cmd.documents = points;
+
+
+	
+	eventBus.send('mongodb-init',{
+			action: 'command', 
+			command: JSON.stringify(cmd)
+		},
+		function(reply) {
+			logger.info('Points saving:');
+			logger.info(JSON.stringify(reply));
+			
+			
+		});
+}

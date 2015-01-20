@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://blog.wsj.ict.mas/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://blog.wsj.ict.mas/">
+
+<xs:element name="addAuthor" type="tns:addAuthor"/>
+
+<xs:element name="addAuthorResponse" type="tns:addAuthorResponse"/>
+
+<xs:element name="addMessage" type="tns:addMessage"/>
+
+<xs:element name="addMessageResponse" type="tns:addMessageResponse"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:element name="listAuthors" type="tns:listAuthors"/>
+
+<xs:element name="listAuthorsResponse" type="tns:listAuthorsResponse"/>
+
+<xs:element name="listMessages" type="tns:listMessages"/>
+
+<xs:element name="listMessagesResponse" type="tns:listMessagesResponse"/>
+
+<xs:element name="removeAuthor" type="tns:removeAuthor"/>
+
+<xs:element name="removeAuthorResponse" type="tns:removeAuthorResponse"/>
+
+<xs:element name="removeMessage" type="tns:removeMessage"/>
+
+<xs:element name="removeMessageResponse" type="tns:removeMessageResponse"/>
+
+<xs:complexType name="listAuthors">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listAuthorsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:auteur" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="auteur">
+<xs:sequence>
+<xs:element name="messages" type="tns:message" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nom" type="xs:string" minOccurs="0"/>
+<xs:element name="prenom" type="xs:string" minOccurs="0"/>
+<xs:element name="seudo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="message">
+<xs:sequence>
+<xs:element name="auteur" type="tns:auteur" minOccurs="0"/>
+<xs:element name="date" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="description" type="xs:string" minOccurs="0"/>
+<xs:element name="titre" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addAuthor">
+<xs:sequence>
+<xs:element name="pseudo" type="xs:string" minOccurs="0"/>
+<xs:element name="firstName" type="xs:string" minOccurs="0"/>
+<xs:element name="lastName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addAuthorResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addMessage">
+<xs:sequence>
+<xs:element name="author" type="xs:string" minOccurs="0"/>
+<xs:element name="title" type="xs:string" minOccurs="0"/>
+<xs:element name="content" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addMessageResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeMessage">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeMessageResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeAuthor">
+<xs:sequence>
+<xs:element name="author" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeAuthorResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listMessages">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listMessagesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:message" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

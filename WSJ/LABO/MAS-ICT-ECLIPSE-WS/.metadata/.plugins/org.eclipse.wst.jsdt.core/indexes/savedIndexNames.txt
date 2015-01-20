@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/seb/Dropbox/DEV/MAS-ICT/WSJ/MAS-ICT-ECLIPSE-WS/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3163636337.index
+1081579407.index
+3754002455.index
+3344893290.index
+1326051436.index
+1795518787.index

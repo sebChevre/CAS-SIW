@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>  
+<html lang="fr">
+	<head>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="api.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="api.css"/>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>API documentation</title>
+		
+		
+		
+	</head>
+	
+	<body>
+	
+		<div class="mainWrapper">
+			
+			<table class="table">
+				
+				<tr>
+					<td class="header_get">GET</td>
+					<td class="header_get_path">
+						<a class="open_detail" data-detail_zone="detail_get_users" href="#">/users</a>
+					</td>
+					<td class="header_get_desc">
+						<a class="open_detail" data-detail_zone="detail_get_users" href="#">get all users</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:0px;margin:0px" colspan=3>
+						<div id="detail_get_users" class="detail" style="border:1px solid #007FFF; background-color:#E7f0F7;">
+							<label class="section_title">Description</label>
+							<span>Retourne la liste de tous les utilisateurs</span>
+							<br/>
+						
+							
+								<label class="section_title">Classe de retour</label>
+								<pre style="margin-left:20px;margin-right:20px;">{"data": [
+        {
+            "_id": "",
+            "username": "",
+            "detail": ""
+        }    
+    ]
+}</pre>							
+								
+								<label class="section_title">Modèle</label>
+								<br/>
+								<div class="model">
+									<span class="model_members">User{</span><br/>
+									<span class="model_members">_id: </span><span>(string) identifiant unique,</span><br/>
+									<span class="model_members">username:</span><span> (string) nom d'utilisateur,</span><br/>
+									<span class="model_members">detail: </span><span>(string) url de la ressource</span><br/>
+									<span class="model_members">}</span>
+								</div>
+								<br/>
+								<label class="section_title">Message de retour</label>
+								
+								<table class="table messages">
+									<thead>
+										<tr>
+											<th>HTTP Status code</th>
+											<th>HTTP Status message</th>
+											<th>Reason</th>
+											<th>Description</th>
+																					</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>200</td>
+											<td>success</td>
+											<td></td>
+											<td></td>
+											
+										</tr>
+										
+										<tr>
+											<td>401</td>
+											<td>fail</td>
+											<td>Authentification failed</td>
+											<td>Authetification Digest erroné</td>
+										</tr>
+										
+										<tr>
+											<td>503</td>
+											<td>fail</td>
+											<td>Service unavaliable</td>
+											<td>Aucune réponse du serveur après délai de 2s</td>
+										</tr>
+									</tbody>
+									
+								</table>
+	
+						</div>
+							
+					</td>
+					
+				</tr>
+				<tr>
+					<td class="header_post">POST</td>
+					<td class="header_post_path">
+						<a class="open_detail" href="#">/users</a>
+					</td>
+					<td class="header_post_desc">
+						<a class="open_detail" href="#">insert a new user</a>
+					</td>
+					
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="bg-danger">GET</td>
+					<td>213</td>
+					<td>EQW3 </td>
+				</tr>
+			</table>
+		</div>
+	</body>
+	
+</html>

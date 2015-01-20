@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SOAP_WEBSERVICE/SOAP_WEBSERVICE.iml" filepath="$PROJECT_DIR$/SOAP_WEBSERVICE/SOAP_WEBSERVICE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOAP_WEBSERVICE_CLIENT/SOAP_WEBSERVICE_CLIENT.iml" filepath="$PROJECT_DIR$/SOAP_WEBSERVICE_CLIENT/SOAP_WEBSERVICE_CLIENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WEBSERVICES.iml" filepath="$PROJECT_DIR$/WEBSERVICES.iml" />
+    </modules>
+  </component>
+</project>

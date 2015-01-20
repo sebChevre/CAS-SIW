@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://webservices.soap/" xmlns:tns="http://webservices.soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="multi" type="tns:multi"/>
+
+  <xs:element name="multiResponse" type="tns:multiResponse"/>
+
+  <xs:complexType name="multi">
+    <xs:sequence>
+      <xs:element name="valeur1" type="xs:float"/>
+      <xs:element name="valeur2" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multiResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

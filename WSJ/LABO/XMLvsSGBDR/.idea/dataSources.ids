@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="MySQL - shop@localhost" uuid="2b5e6333-973e-407a-ae70-6634c3386e72">
+    <database-info product="MySQL" version="5.5.38" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="shop"/>
+    <table name="client" schema="" catalog="shop" type="TABLE">
+      <column name="clie_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="clie_nom" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="clie_prenom" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="clie_rue" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="clie_localite" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="clie_id"/>
+      <exported-key name="fk_commande_client" table="commande" schema="" catalog="shop" columns="client_clie_id"/>
+    </table>
+    <table name="commande" schema="" catalog="shop" type="TABLE">
+      <column name="cmde_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="cmde_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="client_clie_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="cmde_id"/>
+      <foreign-key name="fk_commande_client" columns="client_clie_id" ref-table="client" ref-schema="" ref-catalog="shop" ref-columns="clie_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_ligne_commande_commande1" table="ligne_commande" schema="" catalog="shop" columns="commande_cmde_id"/>
+      <index name="fk_commande_client_idx" unique="false" columns="client_clie_id"/>
+    </table>
+    <table name="ligne_commande" schema="" catalog="shop" type="TABLE">
+      <column name="lncm_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="commande_cmde_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="produit_prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="lncm_produit_nombre" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="lncm_id"/>
+      <foreign-key name="fk_ligne_commande_commande1" columns="commande_cmde_id" ref-table="commande" ref-schema="" ref-catalog="shop" ref-columns="cmde_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_ligne_commande_produit1" columns="produit_prod_id" ref-table="produit" ref-schema="" ref-catalog="shop" ref-columns="prod_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_ligne_commande_commande1_idx" unique="false" columns="commande_cmde_id"/>
+      <index name="fk_ligne_commande_produit1_idx" unique="false" columns="produit_prod_id"/>
+    </table>
+    <table name="produit" schema="" catalog="shop" type="TABLE">
+      <column name="prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="prod_desc" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="prod_prix" sqlType="DECIMAL" precision="5" scale="2" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="prod_id"/>
+      <exported-key name="fk_ligne_commande_produit1" table="ligne_commande" schema="" catalog="shop" columns="produit_prod_id"/>
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="708c9c41-848a-45ef-a35d-b25ebf526dad">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

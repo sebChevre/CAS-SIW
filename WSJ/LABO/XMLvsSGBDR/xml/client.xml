@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clients>
+  <client id="106">
+    <nom>Dubois</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="107">
+    <nom>Beuret</nom>
+    <prenom>Nicole</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="108">
+    <nom>Dubois</nom>
+    <prenom>Michel</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="109">
+    <nom>Robert</nom>
+    <prenom>Pascal</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="110">
+    <nom>Gogniat</nom>
+    <prenom>David</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="111">
+    <nom>Gogniat</nom>
+    <prenom>Edourad</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="112">
+    <nom>Marquis</nom>
+    <prenom>William</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="113">
+    <nom>Chèvre</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="114">
+    <nom>Boillat</nom>
+    <prenom>Pénéloppe</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="115">
+    <nom>Boillat</nom>
+    <prenom>François</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="116">
+    <nom>Boillat</nom>
+    <prenom>Eugénie</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Genève</localite>
+  </client>
+  <client id="117">
+    <nom>Dubois</nom>
+    <prenom>Jacky</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Genève</localite>
+  </client>
+  <client id="118">
+    <nom>Wirz</nom>
+    <prenom>Albert</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Genève</localite>
+  </client>
+  <client id="119">
+    <nom>Wirz</nom>
+    <prenom>Eugénie</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="120">
+    <nom>Hertz</nom>
+    <prenom>Jean</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="121">
+    <nom>Balestedt</nom>
+    <prenom>Daniel</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="122">
+    <nom>Moritz</nom>
+    <prenom>Claude</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="123">
+    <nom>Schaller</nom>
+    <prenom>Claude</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="124">
+    <nom>Crelier</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Delémont</localite>
+  </client>
+  <client id="125">
+    <nom>Dubois</nom>
+    <prenom>Noelle</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Moutier</localite>
+  </client>
+  <client id="126">
+    <nom>Mory</nom>
+    <prenom>Dadi</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="127">
+    <nom>Mory</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bressaucourt</localite>
+  </client>
+  <client id="128">
+    <nom>Dubois</nom>
+    <prenom>James</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="129">
+    <nom>Deruuns</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bressaucourt</localite>
+  </client>
+  <client id="130">
+    <nom>Sandoz</nom>
+    <prenom>Yves</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Vicques</localite>
+  </client>
+  <client id="131">
+    <nom>Zingg</nom>
+    <prenom>Frédéric</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="132">
+    <nom>Dubois</nom>
+    <prenom>Frédérique</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Vicques</localite>
+  </client>
+  <client id="133">
+    <nom>Wrener</nom>
+    <prenom>Hans</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bâle</localite>
+  </client>
+  <client id="134">
+    <nom>Beauséjour</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bâle</localite>
+  </client>
+  <client id="135">
+    <nom>Hallyday</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+  <client id="136">
+    <nom>Jeannerat</nom>
+    <prenom>Jacques</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bâle</localite>
+  </client>
+  <client id="137">
+    <nom>Gatherat</nom>
+    <prenom>Françoise</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bâle</localite>
+  </client>
+  <client id="138">
+    <nom>Dubpond</nom>
+    <prenom>Yves</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Bassecourt</localite>
+  </client>
+  <client id="139">
+    <nom>Durand</nom>
+    <prenom>Ethienne</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Lucerne</localite>
+  </client>
+  <client id="140">
+    <nom>Dubois</nom>
+    <prenom>Isabelle</prenom>
+    <rue>Rue du Moulin</rue>
+    <localite>Zurich</localite>
+  </client>
+</clients>

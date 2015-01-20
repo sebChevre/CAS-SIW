@@ -1,0 +1,7 @@
+{
+	//verticle de démarrage
+	"main":"httpServer.js",
+	"auto-redeploy": true,
+	"description": "Ce module implémente un serveur http ",
+	"author": "Seb Chèvre"
+}

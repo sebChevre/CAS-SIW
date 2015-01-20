@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" type="JAX-WS">
+    <properties version="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SOAP_WEBSERVICES/lib/woodstox-core-asl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

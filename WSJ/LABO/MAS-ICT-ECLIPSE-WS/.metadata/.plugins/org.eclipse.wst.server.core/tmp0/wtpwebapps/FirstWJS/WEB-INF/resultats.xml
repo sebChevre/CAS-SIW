@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultats>
+	
+	<eleve no="1234">
+		<math>5.5</math>
+		<fran>5</fran>
+		<allemand>4.5</allemand>
+	</eleve>
+	
+	<eleve no="1334">
+		<math>6</math>
+		<fran>5</fran>
+		<allemand>4.5</allemand>
+	</eleve>
+	
+	<eleve no="1214">
+		<math>5</math>
+		<fran>1</fran>
+		<allemand>1.5</allemand>
+	</eleve>
+</resultats>
